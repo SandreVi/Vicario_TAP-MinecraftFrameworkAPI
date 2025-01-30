@@ -1,0 +1,212 @@
+[00:00:00] [Netty Server IO #2/INFO]: <SandreOfisial> insult check moron
+
+[00:00:00] [Server thread/INFO]: The word 'MORON' is in the list! :)
+
+[00:00:07] [Netty Server IO #2/INFO]: <SandreOfisial> walk
+
+[00:00:07] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:61045.
+[00:02:35] [Thread-3/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:61181.
+[00:02:35] [Thread-105/INFO]: [RaspberryJuice] Starting input thread
+[00:02:35] [Thread-106/INFO]: [RaspberryJuice] Starting output thread!
+[00:02:35] [Server thread/INFO]: Agents imported! Listening...
+
+[00:02:35] [Server thread/INFO]: Type "HELP" if needed!
+
+[00:02:44] [Netty Server IO #2/INFO]: <SandreOfisial> walk 5
+
+[00:02:47] [Netty Server IO #2/INFO]: <SandreOfisial> walk
+
+[00:02:49] [Netty Server IO #2/INFO]: <SandreOfisial> walk
+
+[00:02:52] [Netty Server IO #2/INFO]: <SandreOfisial> jump 5
+
+[00:02:55] [Netty Server IO #2/INFO]: <SandreOfisial> jump -2
+
+[00:03:00] [Netty Server IO #2/INFO]: <SandreOfisial> cmdlist
+
+[00:03:00] [Server thread/INFO]: Available commands: JUMP, WALK, INSULT, MIMIC, PRAISE, DEPLOY
+
+[00:03:04] [Netty Server IO #2/INFO]: <SandreOfisial> mimic pepepep
+
+[00:03:04] [Server thread/INFO]: pepepep
+
+[00:03:07] [Netty Server IO #2/INFO]: <SandreOfisial> jump help
+
+[00:03:07] [Server thread/INFO]: -> JUMP {height}: The bot will make the player jump 'height' blocks.
+
+[00:03:07] [Server thread/INFO]: Example: JUMP 5
+
+[00:03:13] [Netty Server IO #2/INFO]: <SandreOfisial> walk help
+
+[00:03:13] [Server thread/INFO]: -> WALK {nSteps}: The bot will move the player 'nSteps' forward.
+
+[00:03:13] [Server thread/INFO]: Example: WALK 5
+
+[00:03:16] [Netty Server IO #2/INFO]: <SandreOfisial> mimic help
+
+[00:03:16] [Server thread/INFO]: -> MIMIC {words}: The bot repeats the words you provide.
+
+[00:03:16] [Server thread/INFO]: Example: MIMIC Hello there!
+
+[00:05:08] [Netty Server IO #2/INFO]: <SandreOfisial> reload
+
+[00:05:08] [Server thread/INFO]: Agents reloaded!
+
+[00:05:10] [Netty Server IO #2/INFO]: <SandreOfisial> insult help
+
+[00:05:10] [Server thread/INFO]: -> INSULT: The bot insults someone with a witty remark.
+
+[00:05:10] [Server thread/INFO]: Example: INSULT
+
+[00:05:12] [Netty Server IO #2/INFO]: <SandreOfisial> stop
+
+[00:05:13] [Server thread/INFO]: Framework closed!
+
+[00:05:13] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:61181.
+[00:05:15] [Thread-3/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:61287.
+[00:05:15] [Thread-107/INFO]: [RaspberryJuice] Starting input thread
+[00:05:15] [Thread-108/INFO]: [RaspberryJuice] Starting output thread!
+[00:05:15] [Server thread/INFO]: Agents imported! Listening...
+
+[00:05:15] [Server thread/INFO]: Type "HELP" if needed!
+
+[00:05:20] [Netty Server IO #2/INFO]: <SandreOfisial> insult help
+
+[00:05:20] [Server thread/INFO]: -> INSULT: The bot insults someone with a witty remark.
+
+[00:05:20] [Server thread/INFO]: -> INSULT CHECK {insult}: Checks if the insult is listed.
+
+[00:05:25] [Netty Server IO #2/INFO]: <SandreOfisial> insult check klkl
+
+[00:05:25] [Server thread/INFO]: The word 'KLKL' is NOT in the list... :(
+
+[00:11:49] [Thread-3/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:61691.
+[00:11:49] [Thread-109/INFO]: [RaspberryJuice] Starting input thread
+[00:11:49] [Thread-110/INFO]: [RaspberryJuice] Starting output thread!
+[00:11:49] [Server thread/INFO]: Agents imported! Listening...
+
+[00:11:49] [Server thread/INFO]: Type "HELP" if needed!
+
+[00:11:52] [Thread-109/INFO]: [RaspberryJuice] Connection reset
+[00:11:52] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:61691.
+[00:12:43] [Thread-107/INFO]: [RaspberryJuice] Connection reset
+[00:12:43] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:61287.
+[00:13:19] [Thread-3/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:61759.
+[00:13:19] [Thread-111/INFO]: [RaspberryJuice] Starting input thread
+[00:13:19] [Thread-112/INFO]: [RaspberryJuice] Starting output thread!
+[00:13:19] [Server thread/INFO]: Agents imported! Listening...
+
+[00:13:19] [Server thread/INFO]: Type "HELP" if needed!
+
+[00:13:26] [Netty Server IO #2/INFO]: <SandreOfisial> stop
+
+[00:13:26] [Server thread/INFO]: Framework closed!
+
+[00:13:27] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:61759.
+[00:13:51] [Thread-3/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:61785.
+[00:13:51] [Thread-113/INFO]: [RaspberryJuice] Starting input thread
+[00:13:51] [Thread-114/INFO]: [RaspberryJuice] Starting output thread!
+[00:13:51] [Server thread/INFO]: Agents imported! Listening...
+
+[00:13:51] [Server thread/INFO]: Type "HELP" if needed!
+
+[00:13:57] [Netty Server IO #2/INFO]: <SandreOfisial> cmdlist
+
+[00:13:57] [Server thread/INFO]: Available commands: 
+
+[00:14:06] [Netty Server IO #2/INFO]: <SandreOfisial> reload
+
+[00:14:06] [Server thread/INFO]: Agents reloaded!
+
+[00:14:11] [Netty Server IO #2/INFO]: <SandreOfisial> cmdlist
+
+[00:14:11] [Server thread/INFO]: Available commands: JUMP, WALK, INSULT, MIMIC, PRAISE, DEPLOY
+
+[00:14:14] [Netty Server IO #2/INFO]: <SandreOfisial> jump 5
+
+[00:14:20] [Netty Server IO #2/INFO]: <SandreOfisial> deploy auto
+
+[00:14:22] [Netty Server IO #2/INFO]: <SandreOfisial> deploy manual
+
+[00:14:27] [Netty Server IO #2/INFO]: <SandreOfisial> deploy auto
+
+[00:14:33] [Netty Server IO #2/INFO]: <SandreOfisial> deploy manual
+
+[00:14:37] [Netty Server IO #2/INFO]: <SandreOfisial> deploy auto
+
+[00:14:47] [Netty Server IO #2/INFO]: <SandreOfisial> deploy auto
+
+[00:14:53] [Netty Server IO #2/INFO]: <SandreOfisial> deploy manual
+
+[00:14:58] [Netty Server IO #2/INFO]: <SandreOfisial> walk 5
+
+[00:16:33] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:61785.
+[00:16:41] [Thread-3/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:61895.
+[00:16:41] [Thread-116/INFO]: [RaspberryJuice] Starting output thread!
+[00:16:41] [Thread-115/INFO]: [RaspberryJuice] Starting input thread
+[00:16:41] [Server thread/INFO]: Agents imported! Listening...
+
+[00:16:41] [Server thread/INFO]: Type "HELP" if needed!
+
+[00:16:48] [Netty Server IO #2/INFO]: <SandreOfisial> deploy auto
+
+[00:16:48] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:61895.
+[00:17:02] [Thread-3/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:61909.
+[00:17:02] [Thread-117/INFO]: [RaspberryJuice] Starting input thread
+[00:17:02] [Thread-118/INFO]: [RaspberryJuice] Starting output thread!
+[00:17:03] [Server thread/INFO]: Agents imported! Listening...
+
+[00:17:03] [Server thread/INFO]: Type "HELP" if needed!
+
+[00:17:07] [Netty Server IO #2/INFO]: <SandreOfisial> deploy auto
+
+[00:17:13] [Netty Server IO #2/INFO]: <SandreOfisial> deploy manual
+
+[00:17:19] [Netty Server IO #2/INFO]: <SandreOfisial> deploy auto
+
+[00:17:26] [Netty Server IO #2/INFO]: <SandreOfisial> deploy auto
+
+[00:19:04] [Netty Server IO #2/INFO]: <SandreOfisial> stop
+
+[00:19:04] [Server thread/INFO]: Framework closed!
+
+[00:19:04] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:61909.
+[00:19:24] [Server thread/INFO]: SandreOfisial lost connection: Disconnected
+[00:19:24] [Server thread/INFO]: SandreOfisial left the game
+[00:32:31] [Server thread/INFO]: SandreOfisial[/127.0.0.1:62719] logged in with entity id 533 at ([world]-110.96065920065244, 72.0, -507.01291361884535)
+[00:32:38] [Thread-3/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:62722.
+[00:32:38] [Thread-119/INFO]: [RaspberryJuice] Starting input thread
+[00:32:38] [Thread-120/INFO]: [RaspberryJuice] Starting output thread!
+[00:32:38] [Server thread/INFO]: Agents imported! Listening...
+
+[00:32:38] [Server thread/INFO]: Type "HELP" if needed!
+
+[00:32:43] [Netty Server IO #3/INFO]: <SandreOfisial> cmdlist
+
+[00:32:43] [Server thread/INFO]: Available commands: JUMP, WALK, INSULT, MIMIC, PRAISE, DEPLOY
+
+[00:32:47] [Netty Server IO #3/INFO]: <SandreOfisial> end ed
+
+[00:32:47] [Server thread/INFO]: To properly abort, JUST type "END" or "STOP" with no extra parameters
+
+[00:32:54] [Netty Server IO #3/INFO]: <SandreOfisial> stop er
+
+[00:32:54] [Server thread/INFO]: To properly abort, JUST type "END" or "STOP" with no extra parameters
+
+[00:32:58] [Netty Server IO #3/INFO]: <SandreOfisial> insult
+
+[00:32:58] [Server thread/INFO]: Imbecile
+
+[00:33:02] [Netty Server IO #3/INFO]: <SandreOfisial> insult check
+
+[00:33:02] [Server thread/INFO]: Please provide an insult to check.
+
+[00:33:24] [Server thread/INFO]: SandreOfisial lost connection: Disconnected
+[00:33:24] [Server thread/INFO]: SandreOfisial left the game
+[00:33:33] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:62722.
+[01:28:50] [Thread-1/INFO]: Stopping server
+[01:28:50] [Thread-1/INFO]: Saving players
+[01:28:50] [Thread-1/INFO]: Saving worlds
+[01:28:50] [Thread-1/INFO]: Saving chunks for level 'world'/overworld
+[01:28:50] [Thread-1/INFO]: Saving chunks for level 'world_nether'/the_nether
+[01:28:50] [Thread-1/INFO]: Saving chunks for level 'world_the_end'/the_end

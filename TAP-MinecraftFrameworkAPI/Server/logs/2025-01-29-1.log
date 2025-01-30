@@ -1,0 +1,1009 @@
+[17:11:48] [Server thread/INFO]: Loading properties
+[17:11:48] [Server thread/INFO]: Default game type: CREATIVE
+[17:11:48] [Server thread/INFO]: Generating keypair
+[17:11:48] [Server thread/INFO]: Starting Minecraft server on *:25565
+[17:11:48] [Server thread/INFO]: Using default channel type
+[17:11:49] [Server thread/INFO]: This server is running CraftBukkit version git-Bukkit-ed8c725 (MC: 1.12) (Implementing API version 1.12-R0.1-SNAPSHOT)
+[17:11:49] [Server thread/INFO]: [RaspberryJuice] Loading RaspberryJuice v1.10
+[17:11:49] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[17:11:49] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[17:11:49] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[17:11:49] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[17:11:49] [Server thread/INFO]: Preparing level "world"
+[17:11:50] [Server thread/INFO]: Preparing start region for level 0 (Seed: 4604641233889422912)
+[17:11:51] [Server thread/INFO]: Preparing spawn area: 26%
+[17:11:52] [Server thread/INFO]: Preparing spawn area: 75%
+[17:11:52] [Server thread/INFO]: Preparing start region for level 1 (Seed: -75619791794583886)
+[17:11:53] [Server thread/INFO]: Preparing spawn area: 43%
+[17:11:54] [Server thread/INFO]: Preparing spawn area: 92%
+[17:11:54] [Server thread/INFO]: Preparing start region for level 2 (Seed: -75619791794583886)
+[17:11:55] [Server thread/INFO]: [RaspberryJuice] Enabling RaspberryJuice v1.10
+[17:11:55] [Server thread/INFO]: [RaspberryJuice] Using port 4711
+[17:11:55] [Server thread/INFO]: [RaspberryJuice] Using ABSOLUTE locations
+[17:11:55] [Server thread/INFO]: [RaspberryJuice] Using BOTH clicks for hits
+[17:11:55] [Server thread/INFO]: [RaspberryJuice] ThreadListener Started
+[17:11:55] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[17:11:55] [Server thread/INFO]: Done (6,092s)! For help, type "help" or "?"
+[17:12:57] [Server thread/INFO]: SandreOfisial[/127.0.0.1:62487] logged in with entity id 11 at ([world]-120.05184401672373, 75.30052514242199, -530.691487569087)
+[17:13:02] [Netty Server IO #1/INFO]: <SandreOfisial> cmdmlist
+
+[17:13:35] [Thread-5/INFO]: [RaspberryJuice] Starting input thread
+[17:13:35] [Thread-3/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:62521.
+[17:13:35] [Thread-6/INFO]: [RaspberryJuice] Starting output thread!
+[17:13:35] [Server thread/INFO]: Agents imported! Listening...
+
+[17:13:35] [Server thread/INFO]: Type "HELP" if needed!
+
+[17:13:52] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:62521.
+[17:13:54] [Thread-3/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:62533.
+[17:13:54] [Thread-7/INFO]: [RaspberryJuice] Starting input thread
+[17:13:54] [Thread-8/INFO]: [RaspberryJuice] Starting output thread!
+[17:13:54] [Server thread/INFO]: Agents imported! Listening...
+
+[17:13:54] [Server thread/INFO]: Type "HELP" if needed!
+
+[17:13:59] [Netty Server IO #1/INFO]: <SandreOfisial> cmdlist
+
+[17:13:59] [Server thread/INFO]: Available commands: INSULT, MIMIC, PRAISE, DEPLOY
+
+[17:14:04] [Netty Server IO #1/INFO]: <SandreOfisial> deploy
+
+[17:14:04] [Server thread/INFO]: This command expects parameters! Use command + HELP for available options.
+
+[17:14:08] [Netty Server IO #1/INFO]: <SandreOfisial> deploy auto
+
+[17:14:15] [Netty Server IO #1/INFO]: <SandreOfisial> deploy manual
+
+[17:14:22] [Netty Server IO #1/INFO]: <SandreOfisial> deploy auto
+
+[17:15:15] [Netty Server IO #1/INFO]: <SandreOfisial> praise pelota
+
+[17:15:15] [Server thread/INFO]: Guapo
+
+[17:15:46] [Netty Server IO #1/INFO]: <SandreOfisial> insult calvo
+
+[17:15:46] [Server thread/INFO]: Tonto
+
+[17:15:48] [Netty Server IO #1/INFO]: <SandreOfisial> mimic calvo
+
+[17:15:48] [Server thread/INFO]: calvo
+
+[17:16:00] [Netty Server IO #1/INFO]: <SandreOfisial> insult
+
+[17:16:00] [Server thread/INFO]: Tonto
+
+[17:16:05] [Netty Server IO #1/INFO]: <SandreOfisial> deploy auto
+
+[17:16:12] [Netty Server IO #1/INFO]: <SandreOfisial> deploy
+
+[17:16:12] [Server thread/INFO]: This command expects parameters! Use command + HELP for available options.
+
+[17:16:16] [Netty Server IO #1/INFO]: <SandreOfisial> deploy auto
+
+[17:16:17] [Netty Server IO #1/INFO]: <SandreOfisial> deploy auto
+
+[17:16:19] [Netty Server IO #1/INFO]: <SandreOfisial> deploy auto
+
+[17:16:20] [Netty Server IO #1/INFO]: <SandreOfisial> deploy auto
+
+[17:16:50] [Netty Server IO #1/INFO]: <SandreOfisial> deploy auto
+
+[17:20:10] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:62533.
+[17:20:25] [Thread-3/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:62811.
+[17:20:25] [Thread-10/INFO]: [RaspberryJuice] Starting output thread!
+[17:20:25] [Thread-9/INFO]: [RaspberryJuice] Starting input thread
+[17:20:25] [Server thread/INFO]: Agents imported! Listening...
+
+[17:20:25] [Server thread/INFO]: Type "HELP" if needed!
+
+[17:20:34] [Netty Server IO #1/INFO]: <SandreOfisial> help
+
+[17:20:34] [Server thread/INFO]: ->CMDLIST/COMMANDLIST: Show available commands for agents
+
+[17:20:34] [Server thread/INFO]: ->RELOAD: Refresh loaded agents from Agents folder
+
+[17:20:34] [Server thread/INFO]: ->END/STOP: Close framework
+
+[17:20:34] [Server thread/INFO]: ->HELP: This command (pretty self-explanatory)
+
+[17:20:39] [Netty Server IO #1/INFO]: <SandreOfisial> cmdlist
+
+[17:20:39] [Server thread/INFO]: Available commands: INSULT, MIMIC, PRAISE, DEPLOY
+
+[17:20:44] [Netty Server IO #1/INFO]: <SandreOfisial> deploy
+
+[17:20:44] [Server thread/INFO]: Invalid parameter. Use command + HELP for available options.
+
+[17:21:08] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:62811.
+[17:21:10] [Thread-3/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:62839.
+[17:21:10] [Thread-11/INFO]: [RaspberryJuice] Starting input thread
+[17:21:10] [Thread-12/INFO]: [RaspberryJuice] Starting output thread!
+[17:21:10] [Server thread/INFO]: Agents imported! Listening...
+
+[17:21:10] [Server thread/INFO]: Type "HELP" if needed!
+
+[17:21:12] [Netty Server IO #1/INFO]: <SandreOfisial> deploy
+
+[17:21:21] [Netty Server IO #1/INFO]: <SandreOfisial> deploy help
+
+[17:21:21] [Server thread/INFO]: -> DEPLOY {AUTO/MANUAL} Places a TNT block 5 blocks away and 2 additional in random positions.
+
+[17:21:21] [Server thread/INFO]: * AUTO: Blocks will ignite immediately after placement.
+
+[17:21:21] [Server thread/INFO]: * MANUAL: Blocks will ignite when interacted with by the player.
+
+[17:24:19] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:62839.
+[17:24:23] [Thread-3/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:62970.
+[17:24:23] [Thread-13/INFO]: [RaspberryJuice] Starting input thread
+[17:24:23] [Thread-14/INFO]: [RaspberryJuice] Starting output thread!
+[17:24:23] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:62970.
+[17:25:13] [Thread-3/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:63003.
+[17:25:13] [Thread-15/INFO]: [RaspberryJuice] Starting input thread
+[17:25:13] [Thread-16/INFO]: [RaspberryJuice] Starting output thread!
+[17:25:13] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:63003.
+[17:27:16] [Thread-3/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:63087.
+[17:27:16] [Thread-17/INFO]: [RaspberryJuice] Starting input thread
+[17:27:16] [Thread-18/INFO]: [RaspberryJuice] Starting output thread!
+[17:27:16] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:63087.
+[17:27:36] [Thread-3/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:63106.
+[17:27:36] [Thread-19/INFO]: [RaspberryJuice] Starting input thread
+[17:27:36] [Thread-20/INFO]: [RaspberryJuice] Starting output thread!
+[17:27:36] [Server thread/INFO]: Agents imported! Listening...
+
+[17:27:36] [Server thread/INFO]: Type "HELP" if needed!
+
+[17:27:40] [Netty Server IO #1/INFO]: <SandreOfisial> deploy
+
+[17:27:40] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:63106.
+[17:29:23] [Thread-21/INFO]: [RaspberryJuice] Starting input thread
+[17:29:23] [Thread-3/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:63192.
+[17:29:23] [Thread-22/INFO]: [RaspberryJuice] Starting output thread!
+[17:29:23] [Server thread/INFO]: Agents imported! Listening...
+
+[17:29:23] [Server thread/INFO]: Type "HELP" if needed!
+
+[17:29:26] [Netty Server IO #1/INFO]: <SandreOfisial> deploy
+
+[17:29:26] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:63192.
+[17:30:25] [Thread-3/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:63241.
+[17:30:25] [Thread-23/INFO]: [RaspberryJuice] Starting input thread
+[17:30:25] [Thread-24/INFO]: [RaspberryJuice] Starting output thread!
+[17:30:25] [Server thread/INFO]: Agents imported! Listening...
+
+[17:30:25] [Server thread/INFO]: Type "HELP" if needed!
+
+[17:30:28] [Netty Server IO #1/INFO]: <SandreOfisial> deploy
+
+[17:30:28] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:63241.
+[17:31:54] [Thread-3/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:63300.
+[17:31:54] [Thread-25/INFO]: [RaspberryJuice] Starting input thread
+[17:31:54] [Thread-26/INFO]: [RaspberryJuice] Starting output thread!
+[17:31:54] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:63300.
+[17:32:05] [Thread-3/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:63306.
+[17:32:05] [Thread-27/INFO]: [RaspberryJuice] Starting input thread
+[17:32:05] [Thread-28/INFO]: [RaspberryJuice] Starting output thread!
+[17:32:05] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:63306.
+[17:34:35] [Thread-3/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:63410.
+[17:34:35] [Thread-29/INFO]: [RaspberryJuice] Starting input thread
+[17:34:35] [Thread-30/INFO]: [RaspberryJuice] Starting output thread!
+[17:34:35] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:63410.
+[17:35:07] [Thread-3/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:63434.
+[17:35:07] [Thread-31/INFO]: [RaspberryJuice] Starting input thread
+[17:35:07] [Thread-32/INFO]: [RaspberryJuice] Starting output thread!
+[17:35:07] [Server thread/INFO]: Agents imported! Listening...
+
+[17:35:07] [Server thread/INFO]: Type "HELP" if needed!
+
+[17:35:12] [Netty Server IO #1/INFO]: <SandreOfisial> deploy
+
+[17:35:12] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:63434.
+[17:35:42] [Thread-3/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:63460.
+[17:35:42] [Thread-33/INFO]: [RaspberryJuice] Starting input thread
+[17:35:42] [Thread-34/INFO]: [RaspberryJuice] Starting output thread!
+[17:35:42] [Server thread/INFO]: Agents imported! Listening...
+
+[17:35:42] [Server thread/INFO]: Type "HELP" if needed!
+
+[17:35:45] [Netty Server IO #1/INFO]: <SandreOfisial> deploy
+
+[17:35:45] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:63460.
+[17:36:43] [Thread-3/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:63514.
+[17:36:43] [Thread-35/INFO]: [RaspberryJuice] Starting input thread
+[17:36:43] [Thread-36/INFO]: [RaspberryJuice] Starting output thread!
+[17:36:43] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:63514.
+[17:37:48] [Thread-3/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:63555.
+[17:37:48] [Thread-37/INFO]: [RaspberryJuice] Starting input thread
+[17:37:48] [Thread-38/INFO]: [RaspberryJuice] Starting output thread!
+[17:37:48] [Server thread/INFO]: Agents imported! Listening...
+
+[17:37:48] [Server thread/INFO]: Type "HELP" if needed!
+
+[17:37:50] [Netty Server IO #1/INFO]: <SandreOfisial> deploy
+
+[17:37:53] [Netty Server IO #1/INFO]: <SandreOfisial> praise
+
+[17:37:53] [Server thread/INFO]: Guapo
+
+[17:48:45] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:63555.
+[17:48:46] [Thread-3/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:64056.
+[17:48:46] [Thread-39/INFO]: [RaspberryJuice] Starting input thread
+[17:48:46] [Thread-40/INFO]: [RaspberryJuice] Starting output thread!
+[17:48:46] [Server thread/INFO]: Agents imported! Listening...
+
+[17:48:46] [Server thread/INFO]: Type "HELP" if needed!
+
+[17:48:50] [Netty Server IO #1/INFO]: <SandreOfisial> deploy
+
+[17:48:50] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:64056.
+[17:49:16] [Thread-3/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:64078.
+[17:49:16] [Thread-41/INFO]: [RaspberryJuice] Starting input thread
+[17:49:16] [Thread-42/INFO]: [RaspberryJuice] Starting output thread!
+[17:49:16] [Server thread/INFO]: Agents imported! Listening...
+
+[17:49:16] [Server thread/INFO]: Type "HELP" if needed!
+
+[17:49:20] [Netty Server IO #1/INFO]: <SandreOfisial> deploy
+
+[17:49:52] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:64078.
+[17:49:54] [Thread-3/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:64100.
+[17:49:54] [Thread-43/INFO]: [RaspberryJuice] Starting input thread
+[17:49:54] [Thread-44/INFO]: [RaspberryJuice] Starting output thread!
+[17:49:54] [Server thread/INFO]: Agents imported! Listening...
+
+[17:49:54] [Server thread/INFO]: Type "HELP" if needed!
+
+[17:49:58] [Netty Server IO #1/INFO]: <SandreOfisial> deploy
+
+[17:52:23] [Netty Server IO #1/INFO]: <SandreOfisial> praise
+
+[17:52:23] [Server thread/INFO]: Guapo
+
+[18:14:36] [Netty Server IO #1/INFO]: <SandreOfisial> stop
+
+[18:14:36] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:64100.
+[18:14:40] [Thread-3/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:65162.
+[18:14:40] [Thread-46/INFO]: [RaspberryJuice] Starting output thread!
+[18:14:40] [Thread-45/INFO]: [RaspberryJuice] Starting input thread
+[18:14:40] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:65162.
+[18:14:44] [Netty Server IO #1/INFO]: <SandreOfisial> insult
+
+[18:15:12] [Thread-3/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:65185.
+[18:15:12] [Thread-48/INFO]: [RaspberryJuice] Starting output thread!
+[18:15:12] [Thread-47/INFO]: [RaspberryJuice] Starting input thread
+[18:15:12] [Server thread/INFO]: Agents imported! Listening...
+
+[18:15:12] [Server thread/INFO]: Type "HELP" if needed!
+
+[18:15:21] [Netty Server IO #1/INFO]: <SandreOfisial> insult
+
+[18:15:21] [Server thread/INFO]: Burro
+
+[18:15:23] [Netty Server IO #1/INFO]: <SandreOfisial> insult
+
+[18:15:23] [Server thread/INFO]: Imb‚cil
+
+[18:15:25] [Netty Server IO #1/INFO]: <SandreOfisial> insult
+
+[18:15:25] [Server thread/INFO]: Tonto
+
+[18:15:26] [Netty Server IO #1/INFO]: <SandreOfisial> praise
+
+[18:15:26] [Server thread/INFO]: Qu‚ bonito eres
+
+[18:15:43] [Netty Server IO #1/INFO]: <SandreOfisial> deploy
+
+[18:15:43] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:65185.
+[18:16:08] [Thread-3/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:65220.
+[18:16:08] [Thread-50/INFO]: [RaspberryJuice] Starting output thread!
+[18:16:08] [Thread-49/INFO]: [RaspberryJuice] Starting input thread
+[18:16:08] [Server thread/INFO]: Agents imported! Listening...
+
+[18:16:08] [Server thread/INFO]: Type "HELP" if needed!
+
+[18:16:11] [Netty Server IO #1/INFO]: <SandreOfisial> deploy help
+
+[18:16:11] [Server thread/INFO]: -> DEPLOY {AUTO/MANUAL} Places a TNT block 5 blocks away and 2 additional in random positions.
+
+[18:16:11] [Server thread/INFO]: * AUTO: Blocks will ignite immediately after placement. [DEFAULT]
+
+[18:16:11] [Server thread/INFO]: * MANUAL: Blocks will ignite when interacted with by the player.
+
+[18:16:14] [Netty Server IO #1/INFO]: <SandreOfisial> deploy
+
+[18:27:40] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:65220.
+[18:27:41] [Thread-3/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:49403.
+[18:27:41] [Thread-51/INFO]: [RaspberryJuice] Starting input thread
+[18:27:41] [Thread-52/INFO]: [RaspberryJuice] Starting output thread!
+[18:27:41] [Server thread/INFO]: Agents imported! Listening...
+
+[18:27:41] [Server thread/INFO]: Type "HELP" if needed!
+
+[18:27:46] [Netty Server IO #1/INFO]: <SandreOfisial> insult
+
+[18:27:46] [Server thread/INFO]: Moron
+
+[18:27:47] [Netty Server IO #1/INFO]: <SandreOfisial> insult
+
+[18:27:47] [Server thread/INFO]: Moron
+
+[18:27:48] [Netty Server IO #1/INFO]: <SandreOfisial> inuslt
+
+[18:27:49] [Server thread/INFO]: Command 'INUSLT' not recognized.
+
+[18:27:52] [Netty Server IO #1/INFO]: <SandreOfisial> insult
+
+[18:27:52] [Server thread/INFO]: Stupid
+
+[18:27:53] [Netty Server IO #1/INFO]: <SandreOfisial> insult
+
+[18:27:53] [Server thread/INFO]: Idiot
+
+[18:27:54] [Netty Server IO #1/INFO]: <SandreOfisial> insult
+
+[18:27:54] [Server thread/INFO]: Moron
+
+[18:27:55] [Netty Server IO #1/INFO]: <SandreOfisial> insult
+
+[18:27:55] [Server thread/INFO]: Donkey
+
+[18:27:57] [Netty Server IO #1/INFO]: <SandreOfisial> insult
+
+[18:27:58] [Server thread/INFO]: Idiot
+
+[18:27:58] [Netty Server IO #1/INFO]: <SandreOfisial> insult
+
+[18:27:58] [Server thread/INFO]: Idiot
+
+[18:27:59] [Netty Server IO #1/INFO]: <SandreOfisial> insult
+
+[18:27:59] [Server thread/INFO]: Stupid
+
+[18:27:59] [Netty Server IO #1/INFO]: <SandreOfisial> insult
+
+[18:27:59] [Server thread/INFO]: Donkey
+
+[18:28:00] [Netty Server IO #1/INFO]: <SandreOfisial> insult
+
+[18:28:00] [Server thread/INFO]: Idiot
+
+[18:28:00] [Netty Server IO #1/INFO]: <SandreOfisial> insult
+
+[18:28:00] [Server thread/INFO]: Imbecile
+
+[18:28:01] [Netty Server IO #1/INFO]: <SandreOfisial> insult
+
+[18:28:01] [Server thread/INFO]: Idiot
+
+[18:28:01] [Netty Server IO #1/INFO]: <SandreOfisial> insult
+
+[18:28:01] [Server thread/INFO]: Moron
+
+[18:28:02] [Netty Server IO #1/INFO]: <SandreOfisial> insult
+
+[18:28:02] [Server thread/INFO]: Stupid
+
+[18:28:02] [Netty Server IO #1/INFO]: <SandreOfisial> insult
+
+[18:28:02] [Server thread/INFO]: Donkey
+
+[18:28:03] [Netty Server IO #1/INFO]: <SandreOfisial> insult
+
+[18:28:03] [Server thread/INFO]: Stupid
+
+[18:28:06] [Netty Server IO #1/INFO]: <SandreOfisial> insult check
+
+[18:28:06] [Server thread/INFO]: Please provide an insult to check.
+
+[18:28:12] [Netty Server IO #1/INFO]: <SandreOfisial> insult check Moron
+
+[18:28:12] [Server thread/INFO]: Invalid parameter. Use command + HELP for available options.
+
+[18:28:18] [Netty Server IO #1/INFO]: <SandreOfisial> insult check moron
+
+[18:28:18] [Server thread/INFO]: Invalid parameter. Use command + HELP for available options.
+
+[18:44:39] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:49403.
+[18:44:40] [Thread-3/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:50219.
+[18:44:40] [Thread-53/INFO]: [RaspberryJuice] Starting input thread
+[18:44:40] [Thread-54/INFO]: [RaspberryJuice] Starting output thread!
+[18:44:40] [Server thread/INFO]: Agents imported! Listening...
+
+[18:44:40] [Server thread/INFO]: Type "HELP" if needed!
+
+[18:44:47] [Netty Server IO #1/INFO]: <SandreOfisial> insult check moron
+
+[18:44:47] [Server thread/INFO]: Invalid parameter: check moron. Use command + HELP for available options.
+
+[18:46:50] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:50219.
+[18:46:51] [Thread-3/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:50322.
+[18:46:51] [Thread-55/INFO]: [RaspberryJuice] Starting input thread
+[18:46:51] [Thread-56/INFO]: [RaspberryJuice] Starting output thread!
+[18:46:51] [Server thread/INFO]: Agents imported! Listening...
+
+[18:46:51] [Server thread/INFO]: Type "HELP" if needed!
+
+[18:46:58] [Netty Server IO #1/INFO]: <SandreOfisial> insult check moron
+
+[18:46:58] [Server thread/INFO]: The word 'MORON' is in the list!
+
+[18:47:04] [Netty Server IO #1/INFO]: <SandreOfisial> mimic tu madre
+
+[18:47:04] [Server thread/INFO]: tu madre
+
+[18:47:04] [Server thread/INFO]: Invalid parameter: tu. Use command + HELP for available options.
+
+[18:47:43] [Netty Server IO #1/INFO]: <SandreOfisial> mimic pelota
+
+[18:47:43] [Server thread/INFO]: pelota
+
+[18:47:43] [Server thread/INFO]: Invalid parameter: pelota. Use command + HELP for available options.
+
+[18:55:08] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:50322.
+[18:55:09] [Thread-3/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:50711.
+[18:55:09] [Thread-57/INFO]: [RaspberryJuice] Starting input thread
+[18:55:09] [Thread-58/INFO]: [RaspberryJuice] Starting output thread!
+[18:55:09] [Server thread/INFO]: Agents imported! Listening...
+
+[18:55:09] [Server thread/INFO]: Type "HELP" if needed!
+
+[18:55:12] [Netty Server IO #1/INFO]: <SandreOfisial> mimic pelota
+
+[18:55:12] [Server thread/INFO]: pelota
+
+[18:55:12] [Server thread/INFO]: Invalid parameter: pelota. Use command + HELP for available options.
+
+[18:56:02] [Netty Server IO #1/INFO]: <SandreOfisial> insult caca
+
+[18:56:02] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:50711.
+[18:57:14] [Thread-3/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:50806.
+[18:57:14] [Thread-60/INFO]: [RaspberryJuice] Starting output thread!
+[18:57:14] [Thread-59/INFO]: [RaspberryJuice] Starting input thread
+[18:57:14] [Server thread/INFO]: Agents imported! Listening...
+
+[18:57:14] [Server thread/INFO]: Type "HELP" if needed!
+
+[18:57:19] [Netty Server IO #1/INFO]: <SandreOfisial> insult
+
+[18:57:19] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:50806.
+[18:57:27] [Thread-3/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:50813.
+[18:57:27] [Thread-61/INFO]: [RaspberryJuice] Starting input thread
+[18:57:27] [Thread-62/INFO]: [RaspberryJuice] Starting output thread!
+[18:57:27] [Server thread/INFO]: Agents imported! Listening...
+
+[18:57:27] [Server thread/INFO]: Type "HELP" if needed!
+
+[18:57:30] [Netty Server IO #1/INFO]: <SandreOfisial> insult caca
+
+[18:57:30] [Server thread/INFO]: Stupid
+
+[18:58:01] [Netty Server IO #1/INFO]: <SandreOfisial> insult pene
+
+[18:58:01] [Server thread/INFO]: Fool
+
+[18:58:05] [Netty Server IO #1/INFO]: <SandreOfisial> insult check pene
+
+[18:58:05] [Server thread/INFO]: The word 'PENE' is not in the list.
+
+[18:58:10] [Netty Server IO #1/INFO]: <SandreOfisial> insult check donkey
+
+[18:58:10] [Server thread/INFO]: The word 'DONKEY' is in the list!
+
+[18:58:16] [Netty Server IO #1/INFO]: <SandreOfisial> mimic
+
+[18:58:16] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:50813.
+[18:58:49] [Thread-3/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:50865.
+[18:58:49] [Thread-63/INFO]: [RaspberryJuice] Starting input thread
+[18:58:49] [Thread-64/INFO]: [RaspberryJuice] Starting output thread!
+[18:58:49] [Server thread/INFO]: Agents imported! Listening...
+
+[18:58:49] [Server thread/INFO]: Type "HELP" if needed!
+
+[18:58:52] [Netty Server IO #1/INFO]: <SandreOfisial> mimic cancer
+
+[18:58:52] [Server thread/INFO]: cancer
+
+[18:58:52] [Server thread/INFO]: Invalid parameter: cancer. Use command + HELP for available options.
+
+[18:58:56] [Netty Server IO #1/INFO]: <SandreOfisial> mimic pelota
+
+[18:58:56] [Server thread/INFO]: pelota
+
+[18:58:56] [Server thread/INFO]: Invalid parameter: pelota. Use command + HELP for available options.
+
+[19:02:26] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:50865.
+[19:02:27] [Thread-3/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:51075.
+[19:02:27] [Thread-65/INFO]: [RaspberryJuice] Starting input thread
+[19:02:27] [Thread-66/INFO]: [RaspberryJuice] Starting output thread!
+[19:02:27] [Server thread/INFO]: Agents imported! Listening...
+
+[19:02:27] [Server thread/INFO]: Type "HELP" if needed!
+
+[19:02:30] [Netty Server IO #1/INFO]: <SandreOfisial> insult
+
+[19:02:30] [Server thread/INFO]: Donkey
+
+[19:02:30] [Server thread/INFO]: Please provide an insult to check.
+
+[19:02:30] [Server thread/INFO]: This command expects parameters! Use command + HELP for available options.
+
+[19:02:41] [Netty Server IO #1/INFO]: <SandreOfisial> praise
+
+[19:02:41] [Server thread/INFO]: Smart
+
+[19:02:41] [Server thread/INFO]: Please provide a compliment to check.
+
+[19:02:41] [Server thread/INFO]: This command expects parameters! Use command + HELP for available options.
+
+[19:06:29] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:51075.
+[19:06:31] [Thread-3/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:51273.
+[19:06:31] [Thread-67/INFO]: [RaspberryJuice] Starting input thread
+[19:06:31] [Thread-68/INFO]: [RaspberryJuice] Starting output thread!
+[19:06:31] [Server thread/INFO]: Agents imported! Listening...
+
+[19:06:31] [Server thread/INFO]: Type "HELP" if needed!
+
+[19:06:36] [Netty Server IO #1/INFO]: <SandreOfisial> insult
+
+[19:06:36] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:51273.
+[19:09:09] [Thread-3/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:51374.
+[19:09:09] [Thread-70/INFO]: [RaspberryJuice] Starting output thread!
+[19:09:09] [Thread-69/INFO]: [RaspberryJuice] Starting input thread
+[19:09:09] [Server thread/INFO]: Agents imported! Listening...
+
+[19:09:09] [Server thread/INFO]: Type "HELP" if needed!
+
+[19:09:14] [Netty Server IO #1/INFO]: <SandreOfisial> insult
+
+[19:09:14] [Server thread/INFO]: Moron
+
+[19:09:14] [Server thread/INFO]: Please provide an insult to check.
+
+[19:09:14] [Server thread/INFO]: This command expects parameters! Use command + HELP for available options.
+
+[19:11:25] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:51374.
+[19:11:26] [Thread-3/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:51473.
+[19:11:26] [Thread-71/INFO]: [RaspberryJuice] Starting input thread
+[19:11:26] [Thread-72/INFO]: [RaspberryJuice] Starting output thread!
+[19:11:26] [Server thread/INFO]: Agents imported! Listening...
+
+[19:11:26] [Server thread/INFO]: Type "HELP" if needed!
+
+[19:11:29] [Netty Server IO #1/INFO]: <SandreOfisial> insult
+
+[19:11:29] [Server thread/INFO]: Stupid
+
+[19:11:29] [Server thread/INFO]: Please provide an insult to check.
+
+[19:11:29] [Server thread/INFO]: This command expects parameters! Use command + HELP for available options.
+
+[19:12:15] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:51473.
+[19:12:16] [Thread-3/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:51514.
+[19:12:16] [Thread-73/INFO]: [RaspberryJuice] Starting input thread
+[19:12:16] [Thread-74/INFO]: [RaspberryJuice] Starting output thread!
+[19:12:16] [Server thread/INFO]: Agents imported! Listening...
+
+[19:12:16] [Server thread/INFO]: Type "HELP" if needed!
+
+[19:12:20] [Netty Server IO #1/INFO]: <SandreOfisial> insult
+
+[19:12:20] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:51514.
+[19:12:46] [Thread-3/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:51535.
+[19:12:46] [Thread-75/INFO]: [RaspberryJuice] Starting input thread
+[19:12:46] [Thread-76/INFO]: [RaspberryJuice] Starting output thread!
+[19:12:46] [Server thread/INFO]: Agents imported! Listening...
+
+[19:12:46] [Server thread/INFO]: Type "HELP" if needed!
+
+[19:12:48] [Netty Server IO #1/INFO]: <SandreOfisial> insult
+
+[19:12:48] [Server thread/INFO]: Fool
+
+[19:12:53] [Netty Server IO #1/INFO]: <SandreOfisial> mimic pelota
+
+[19:12:54] [Server thread/INFO]: pelota
+
+[19:12:54] [Server thread/INFO]: Invalid parameter: pelota. Use command + HELP for available options.
+
+[19:13:15] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:51535.
+[19:13:16] [Thread-3/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:51557.
+[19:13:16] [Thread-77/INFO]: [RaspberryJuice] Starting input thread
+[19:13:16] [Thread-78/INFO]: [RaspberryJuice] Starting output thread!
+[19:13:16] [Server thread/INFO]: Agents imported! Listening...
+
+[19:13:16] [Server thread/INFO]: Type "HELP" if needed!
+
+[19:13:20] [Netty Server IO #1/INFO]: <SandreOfisial> insult
+
+[19:13:20] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:51557.
+[19:14:02] [Thread-3/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:51587.
+[19:14:02] [Thread-79/INFO]: [RaspberryJuice] Starting input thread
+[19:14:02] [Thread-80/INFO]: [RaspberryJuice] Starting output thread!
+[19:14:03] [Server thread/INFO]: Agents imported! Listening...
+
+[19:14:03] [Server thread/INFO]: Type "HELP" if needed!
+
+[19:14:06] [Netty Server IO #1/INFO]: <SandreOfisial> insult
+
+[19:14:06] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:51587.
+[19:14:16] [Thread-3/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:51603.
+[19:14:16] [Thread-81/INFO]: [RaspberryJuice] Starting input thread
+[19:14:16] [Thread-82/INFO]: [RaspberryJuice] Starting output thread!
+[19:14:16] [Server thread/INFO]: Agents imported! Listening...
+
+[19:14:16] [Server thread/INFO]: Type "HELP" if needed!
+
+[19:14:18] [Netty Server IO #1/INFO]: <SandreOfisial> insult
+
+[19:14:18] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:51603.
+[19:15:22] [Thread-3/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:51645.
+[19:15:22] [Thread-84/INFO]: [RaspberryJuice] Starting output thread!
+[19:15:22] [Thread-83/INFO]: [RaspberryJuice] Starting input thread
+[19:15:22] [Server thread/INFO]: Agents imported! Listening...
+
+[19:15:22] [Server thread/INFO]: Type "HELP" if needed!
+
+[19:15:24] [Netty Server IO #1/INFO]: <SandreOfisial> insult
+
+[19:15:24] [Server thread/INFO]: Fool
+
+[19:15:27] [Netty Server IO #1/INFO]: <SandreOfisial> mimic pelota
+
+[19:15:27] [Server thread/INFO]: pelota
+
+[19:15:27] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:51645.
+[19:15:32] [Netty Server IO #1/INFO]: <SandreOfisial> mimic tu puta madre
+
+[19:16:07] [Netty Server IO #1/INFO]: <SandreOfisial> mimic tu pelota
+
+[19:16:14] [Thread-3/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:51683.
+[19:16:14] [Thread-85/INFO]: [RaspberryJuice] Starting input thread
+[19:16:14] [Thread-86/INFO]: [RaspberryJuice] Starting output thread!
+[19:16:14] [Server thread/INFO]: Agents imported! Listening...
+
+[19:16:14] [Server thread/INFO]: Type "HELP" if needed!
+
+[19:16:18] [Netty Server IO #1/INFO]: <SandreOfisial> mimit u pelota
+
+[19:16:18] [Server thread/INFO]: Command 'MIMIT' not recognized.
+
+[19:16:24] [Netty Server IO #1/INFO]: <SandreOfisial> mimic tu pelota
+
+[19:16:24] [Server thread/INFO]: tu pelota
+
+[19:16:24] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:51683.
+[19:17:47] [Thread-3/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:51747.
+[19:17:47] [Thread-87/INFO]: [RaspberryJuice] Starting input thread
+[19:17:47] [Thread-88/INFO]: [RaspberryJuice] Starting output thread!
+[19:17:47] [Server thread/INFO]: Agents imported! Listening...
+
+[19:17:47] [Server thread/INFO]: Type "HELP" if needed!
+
+[19:17:55] [Netty Server IO #1/INFO]: <SandreOfisial> mimic tu pelota grande
+
+[19:17:55] [Server thread/INFO]: tu pelota grande
+
+[19:17:56] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:51747.
+[19:18:09] [Thread-3/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:51759.
+[19:18:09] [Thread-89/INFO]: [RaspberryJuice] Starting input thread
+[19:18:09] [Thread-90/INFO]: [RaspberryJuice] Starting output thread!
+[19:18:09] [Server thread/INFO]: Agents imported! Listening...
+
+[19:18:09] [Server thread/INFO]: Type "HELP" if needed!
+
+[19:19:25] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:51759.
+[19:19:26] [Thread-3/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:51814.
+[19:19:26] [Thread-91/INFO]: [RaspberryJuice] Starting input thread
+[19:19:26] [Thread-92/INFO]: [RaspberryJuice] Starting output thread!
+[19:19:26] [Server thread/INFO]: Agents imported! Listening...
+
+[19:19:26] [Server thread/INFO]: Type "HELP" if needed!
+
+[19:19:32] [Netty Server IO #1/INFO]: <SandreOfisial> mimic mi gran pelota magna
+
+[19:19:32] [Server thread/INFO]: mi gran pelota magna
+
+[19:19:32] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:51814.
+[19:21:32] [Thread-3/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:51904.
+[19:21:32] [Thread-93/INFO]: [RaspberryJuice] Starting input thread
+[19:21:32] [Thread-94/INFO]: [RaspberryJuice] Starting output thread!
+[19:21:32] [Server thread/INFO]: Agents imported! Listening...
+
+[19:21:32] [Server thread/INFO]: Type "HELP" if needed!
+
+[19:21:37] [Netty Server IO #1/INFO]: <SandreOfisial> mimic mi pelota azul
+
+[19:21:37] [Server thread/INFO]: mi pelota azul
+
+[19:21:37] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:51904.
+[19:21:44] [Netty Server IO #1/INFO]: <SandreOfisial> mimic mi pelota azul grande y verga
+
+[19:25:24] [Thread-3/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:52076.
+[19:25:24] [Thread-95/INFO]: [RaspberryJuice] Starting input thread
+[19:25:24] [Thread-96/INFO]: [RaspberryJuice] Starting output thread!
+[19:25:24] [Server thread/INFO]: Agents imported! Listening...
+
+[19:25:24] [Server thread/INFO]: Type "HELP" if needed!
+
+[19:25:28] [Netty Server IO #1/INFO]: <SandreOfisial> inult
+
+[19:25:28] [Server thread/INFO]: Command 'INULT' not recognized.
+
+[19:25:30] [Netty Server IO #1/INFO]: <SandreOfisial> insult
+
+[19:25:30] [Server thread/INFO]: Fool
+
+[19:25:35] [Netty Server IO #1/INFO]: <SandreOfisial> mimic mi pelotinga h
+
+[19:25:35] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:52076.
+[19:25:41] [Thread-3/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:52088.
+[19:25:41] [Thread-97/INFO]: [RaspberryJuice] Starting input thread
+[19:25:41] [Thread-98/INFO]: [RaspberryJuice] Starting output thread!
+[19:25:41] [Server thread/INFO]: Agents imported! Listening...
+
+[19:25:41] [Server thread/INFO]: Type "HELP" if needed!
+
+[19:25:46] [Netty Server IO #1/INFO]: <SandreOfisial> mimic pelota
+
+[19:25:46] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:52088.
+[19:27:40] [Thread-3/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:52173.
+[19:27:40] [Thread-99/INFO]: [RaspberryJuice] Starting input thread
+[19:27:40] [Thread-100/INFO]: [RaspberryJuice] Starting output thread!
+[19:27:40] [Server thread/INFO]: Agents imported! Listening...
+
+[19:27:40] [Server thread/INFO]: Type "HELP" if needed!
+
+[19:27:43] [Netty Server IO #1/INFO]: <SandreOfisial> insult
+
+[19:27:43] [Server thread/INFO]: Donkey
+
+[19:27:46] [Netty Server IO #1/INFO]: <SandreOfisial> mimic pelota
+
+[19:27:46] [Server thread/INFO]: pelota
+
+[19:27:49] [Netty Server IO #1/INFO]: <SandreOfisial> mimic pelota lechera
+
+[19:27:49] [Server thread/INFO]: pelota lechera
+
+[19:27:55] [Netty Server IO #1/INFO]: <SandreOfisial> mimic mi gran pepreper eprekpr erne oirheoi reoi
+
+[19:27:55] [Server thread/INFO]: mi gran pepreper eprekpr erne oirheoi reoi
+
+[19:28:23] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:52173.
+[19:28:24] [Thread-3/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:52201.
+[19:28:24] [Thread-101/INFO]: [RaspberryJuice] Starting input thread
+[19:28:24] [Thread-102/INFO]: [RaspberryJuice] Starting output thread!
+[19:28:24] [Server thread/INFO]: Agents imported! Listening...
+
+[19:28:24] [Server thread/INFO]: Type "HELP" if needed!
+
+[19:28:28] [Netty Server IO #1/INFO]: <SandreOfisial> mimic p p p p p
+
+[19:28:28] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:52201.
+[19:29:50] [Netty Server IO #1/INFO]: <SandreOfisial> mimic p p p p p
+
+[19:29:53] [Thread-3/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:52261.
+[19:29:53] [Thread-104/INFO]: [RaspberryJuice] Starting output thread!
+[19:29:53] [Thread-103/INFO]: [RaspberryJuice] Starting input thread
+[19:29:53] [Server thread/INFO]: Agents imported! Listening...
+
+[19:29:53] [Server thread/INFO]: Type "HELP" if needed!
+
+[19:29:56] [Netty Server IO #1/INFO]: <SandreOfisial> mimic p p p p p p
+
+[19:29:57] [Server thread/INFO]: p p p p p p
+
+[19:30:00] [Netty Server IO #1/INFO]: <SandreOfisial> mimic pelota
+
+[19:30:00] [Server thread/INFO]: pelota
+
+[19:30:02] [Netty Server IO #1/INFO]: <SandreOfisial> insult
+
+[19:30:02] [Server thread/INFO]: Donkey
+
+[19:31:07] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:52261.
+[19:31:08] [Thread-3/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:52304.
+[19:31:08] [Thread-106/INFO]: [RaspberryJuice] Starting output thread!
+[19:31:08] [Thread-105/INFO]: [RaspberryJuice] Starting input thread
+[19:31:08] [Server thread/INFO]: Agents imported! Listening...
+
+[19:31:08] [Server thread/INFO]: Type "HELP" if needed!
+
+[19:31:10] [Netty Server IO #1/INFO]: <SandreOfisial> praise
+
+[19:31:11] [Server thread/INFO]: Fantastic
+
+[19:31:13] [Netty Server IO #1/INFO]: <SandreOfisial> insult
+
+[19:31:13] [Server thread/INFO]: Jerk
+
+[19:31:17] [Netty Server IO #1/INFO]: <SandreOfisial> insult check JERK
+
+[19:31:17] [Server thread/INFO]: The word 'JERK' is in the list!
+
+[19:31:22] [Netty Server IO #1/INFO]: <SandreOfisial> praise check fantaStic
+
+[19:31:22] [Server thread/INFO]: The word 'FANTASTIC' is in the list!
+
+[19:31:30] [Netty Server IO #1/INFO]: <SandreOfisial> praise check jjje
+
+[19:31:30] [Server thread/INFO]: The word 'JJJE' is not in the list.
+
+[19:31:54] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:52304.
+[19:31:55] [Thread-3/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:52339.
+[19:31:55] [Thread-107/INFO]: [RaspberryJuice] Starting input thread
+[19:31:55] [Thread-108/INFO]: [RaspberryJuice] Starting output thread!
+[19:31:55] [Server thread/INFO]: Agents imported! Listening...
+
+[19:31:55] [Server thread/INFO]: Type "HELP" if needed!
+
+[19:32:04] [Netty Server IO #1/INFO]: <SandreOfisial> praise
+
+[19:32:04] [Server thread/INFO]: Amazing
+
+[19:32:06] [Netty Server IO #1/INFO]: <SandreOfisial> praise caca
+
+[19:32:06] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:52339.
+[19:32:34] [Thread-3/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:52368.
+[19:32:34] [Thread-109/INFO]: [RaspberryJuice] Starting input thread
+[19:32:34] [Thread-110/INFO]: [RaspberryJuice] Starting output thread!
+[19:32:34] [Server thread/INFO]: Agents imported! Listening...
+
+[19:32:34] [Server thread/INFO]: Type "HELP" if needed!
+
+[19:32:35] [Netty Server IO #1/INFO]: <SandreOfisial> praise caca
+
+[19:32:36] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:52368.
+[19:33:32] [Thread-3/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:52409.
+[19:33:32] [Thread-111/INFO]: [RaspberryJuice] Starting input thread
+[19:33:32] [Thread-112/INFO]: [RaspberryJuice] Starting output thread!
+[19:33:32] [Server thread/INFO]: Agents imported! Listening...
+
+[19:33:32] [Server thread/INFO]: Type "HELP" if needed!
+
+[19:33:35] [Netty Server IO #1/INFO]: <SandreOfisial> insult caca
+
+[19:33:35] [Server thread/INFO]: Idiot
+
+[19:33:41] [Netty Server IO #1/INFO]: <SandreOfisial> insult esternoc rerertg
+
+[19:33:41] [Server thread/INFO]: Idiot
+
+[19:33:44] [Netty Server IO #1/INFO]: <SandreOfisial> insult
+
+[19:33:44] [Server thread/INFO]: Imbecile
+
+[19:34:19] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:52409.
+[19:34:20] [Thread-3/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:52445.
+[19:34:20] [Thread-113/INFO]: [RaspberryJuice] Starting input thread
+[19:34:20] [Thread-114/INFO]: [RaspberryJuice] Starting output thread!
+[19:34:20] [Server thread/INFO]: Agents imported! Listening...
+
+[19:34:20] [Server thread/INFO]: Type "HELP" if needed!
+
+[19:34:23] [Netty Server IO #1/INFO]: <SandreOfisial> deploy
+
+[19:34:23] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:52445.
+[19:39:34] [Thread-3/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:52669.
+[19:39:34] [Thread-115/INFO]: [RaspberryJuice] Starting input thread
+[19:39:34] [Thread-116/INFO]: [RaspberryJuice] Starting output thread!
+[19:39:34] [Server thread/INFO]: Agents imported! Listening...
+
+[19:39:34] [Server thread/INFO]: Type "HELP" if needed!
+
+[19:39:40] [Netty Server IO #1/INFO]: <SandreOfisial> deploy
+
+[19:39:40] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:52669.
+[19:40:00] [Thread-3/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:52686.
+[19:40:00] [Thread-117/INFO]: [RaspberryJuice] Starting input thread
+[19:40:00] [Thread-118/INFO]: [RaspberryJuice] Starting output thread!
+[19:40:00] [Server thread/INFO]: Agents imported! Listening...
+
+[19:40:00] [Server thread/INFO]: Type "HELP" if needed!
+
+[19:40:04] [Netty Server IO #1/INFO]: <SandreOfisial> deploy
+
+[19:40:04] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:52686.
+[19:41:18] [Thread-3/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:52749.
+[19:41:18] [Thread-120/INFO]: [RaspberryJuice] Starting output thread!
+[19:41:18] [Thread-119/INFO]: [RaspberryJuice] Starting input thread
+[19:41:18] [Server thread/INFO]: Agents imported! Listening...
+
+[19:41:18] [Server thread/INFO]: Type "HELP" if needed!
+
+[19:41:21] [Netty Server IO #1/INFO]: <SandreOfisial> deploy
+
+[19:41:21] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:52749.
+[19:43:44] [Thread-3/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:52859.
+[19:43:44] [Thread-122/INFO]: [RaspberryJuice] Starting output thread!
+[19:43:44] [Thread-121/INFO]: [RaspberryJuice] Starting input thread
+[19:43:44] [Server thread/INFO]: Agents imported! Listening...
+
+[19:43:44] [Server thread/INFO]: Type "HELP" if needed!
+
+[19:43:47] [Netty Server IO #1/INFO]: <SandreOfisial> deploy
+
+[19:43:47] [Server thread/INFO]: This command expects parameters! Use command + HELP for available options.
+
+[19:43:52] [Netty Server IO #1/INFO]: <SandreOfisial> deploy auto
+
+[19:43:52] [Server thread/INFO]: This command expects parameters! Use command + HELP for available options.
+
+[19:44:31] [Netty Server IO #1/INFO]: <SandreOfisial> deploy manual
+
+[19:44:31] [Server thread/INFO]: This command expects parameters! Use command + HELP for available options.
+
+[19:44:50] [Netty Server IO #1/INFO]: <SandreOfisial> deploy manual
+
+[19:44:50] [Server thread/INFO]: This command expects parameters! Use command + HELP for available options.
+
+[19:44:56] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:52859.
+[19:44:57] [Thread-3/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:52910.
+[19:44:57] [Thread-123/INFO]: [RaspberryJuice] Starting input thread
+[19:44:57] [Thread-124/INFO]: [RaspberryJuice] Starting output thread!
+[19:44:57] [Server thread/INFO]: Agents imported! Listening...
+
+[19:44:57] [Server thread/INFO]: Type "HELP" if needed!
+
+[19:44:59] [Netty Server IO #1/INFO]: <SandreOfisial> deploy manual
+
+[19:45:03] [Netty Server IO #1/INFO]: <SandreOfisial> deploy autp
+
+[19:45:03] [Server thread/INFO]: Invalid parameter: autp. Use command + HELP for available options.
+
+[19:45:06] [Netty Server IO #1/INFO]: <SandreOfisial> deploy auto
+
+[19:46:57] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:52910.
+[19:46:58] [Thread-3/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:52990.
+[19:46:58] [Thread-125/INFO]: [RaspberryJuice] Starting input thread
+[19:46:58] [Thread-126/INFO]: [RaspberryJuice] Starting output thread!
+[19:46:58] [Server thread/INFO]: Agents imported! Listening...
+
+[19:46:58] [Server thread/INFO]: Type "HELP" if needed!
+
+[19:47:07] [Netty Server IO #1/INFO]: <SandreOfisial> mimic m m m m m m m m
+
+[19:47:07] [Server thread/INFO]: m m m m m m m m
+
+[19:47:10] [Netty Server IO #1/INFO]: <SandreOfisial> mimic pelota
+
+[19:47:10] [Server thread/INFO]: pelota
+
+[19:47:12] [Netty Server IO #1/INFO]: <SandreOfisial> insult
+
+[19:47:12] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:52990.
+[19:49:08] [Thread-3/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53083.
+[19:49:08] [Thread-127/INFO]: [RaspberryJuice] Starting input thread
+[19:49:08] [Thread-128/INFO]: [RaspberryJuice] Starting output thread!
+[19:49:08] [Server thread/INFO]: Agents imported! Listening...
+
+[19:49:08] [Server thread/INFO]: Type "HELP" if needed!
+
+[19:49:10] [Netty Server IO #1/INFO]: <SandreOfisial> insult
+
+[19:49:10] [Server thread/INFO]: Fool
+
+[19:49:17] [Netty Server IO #1/INFO]: <SandreOfisial> praise
+
+[19:49:17] [Server thread/INFO]: Fantastic
+
+[19:49:36] [Netty Server IO #1/INFO]: <SandreOfisial> deploy
+
+[19:49:36] [Server thread/INFO]: This command expects parameters! Use command + HELP for available options.
+
+[19:49:40] [Netty Server IO #1/INFO]: <SandreOfisial> deploy auto
+
+[19:51:04] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53083.
+[19:51:10] [Thread-3/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53172.
+[19:51:10] [Thread-129/INFO]: [RaspberryJuice] Starting input thread
+[19:51:10] [Thread-130/INFO]: [RaspberryJuice] Starting output thread!
+[19:51:10] [Server thread/INFO]: Agents imported! Listening...
+
+[19:51:10] [Server thread/INFO]: Type "HELP" if needed!
+
+[19:51:14] [Netty Server IO #1/INFO]: <SandreOfisial> deploy
+
+[19:51:14] [Server thread/INFO]: This command expects parameters! Use command + HELP for available options.
+
+[20:05:53] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53172.
+[20:12:32] [Server thread/INFO]: SandreOfisial lost connection: Disconnected
+[20:12:32] [Server thread/INFO]: SandreOfisial left the game
