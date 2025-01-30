@@ -27,6 +27,9 @@ jobs:
         python -m pip install --upgrade pip
         pip install pytest pytest-cov
 
+    - name: Set PYTHONPATH
+      run: echo "PYTHONPATH=$(pwd)/TAP-MinecraftFrameworkAPI" >> $GITHUB_ENV
+
     - name: Run tests and generate coverage report
       run: |
         pytest --cov=TAP-MinecraftFrameworkAPI/Framework --cov-report=xml TAP-MinecraftFrameworkAPI/Framework/_tests
