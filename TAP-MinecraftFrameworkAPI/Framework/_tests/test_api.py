@@ -5,6 +5,8 @@ from MyAdventures.mcpi.vec3 import Vec3
 
 class TestMcBotAPI(unittest.TestCase):
 
+    # I've only made tests that check the functionality of the API
+
     def setUp(self):
         self.mc_mock = MagicMock()
 

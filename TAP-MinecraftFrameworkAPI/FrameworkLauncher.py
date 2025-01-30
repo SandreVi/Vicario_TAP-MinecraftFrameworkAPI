@@ -1,4 +1,3 @@
-# FrameworkLauncher.py
 from MyAdventures.mcpi.minecraft import Minecraft
 from Framework.agent_manager import AgentManager
 

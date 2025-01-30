@@ -1,4 +1,3 @@
-# AGNT_TNTBot.py
 import random
 from MyAdventures.mcpi.block import TNT, GLASS
 from Framework.Utils.agent import Agent
