@@ -8,68 +8,68 @@ class TemplateBot(Agent):
         Command header
         """
         help_message = [
-            "-> FAKE1 {PARAMETERS} Command description.",
-            "* PARAMETER1: Parameter description.",
-            "* PARAMETER2: Parameter description."
+            "-> FAKE1 {ПАРАМЕТРЫ} Командин дийцар.",
+            "* PARAMETER1: Параметрийн дийцар",
+            "* PARAMETER2: Параметраш дӀаязъяр."
         ]
             
         actions = {
-            "DEFAULT": self.default_mode, # executed when NO parameters
-            "CUSTOM": self.custom_mode # executed if parameter = CUSTOM
+            "ЦААЛАР": self.default_mode, # кхочушдо NO параметраш хилча
+            "ЛАМАСТ": self.custom_mode # кхочушдо нагахь санна параметр = ЛАМАСТ .
         }
         
         self.execute_cmd(help_message, actions, *args)
 
     def cmd_fake2(self, *args):
         """
-        Command header
+        Командин корта .
         """
         help_message = [
-            "-> FAKE2 Command description."
+            "-> FAKE2 ТӀедилларан дийцар."
         ]
             
         actions = {
-            "DEFAULT": self.do_stuff, # executed when NO parameters
+            "ЦААЛАР": self.do_stuff, # кхочушдо NO параметраш хилча
         }
         
         self.execute_cmd(help_message, actions, *args)
 
     def default_mode(self, *args):
         """
-        Default mode logic for command 1
+        1-чу командан логика стандартан режиман .
         """
-        # logic here (API calls)
-        self.talk("Example")
+        # логика кхузахь (API кхайкхамаш)
+        self.talk("Масал")
 
     def custom_mode(self, *args):
         """
-        Custom mode logic
+        Къовсамийн режиман логика .
         """
-        parameter = args[0] # for example
+        parameter = args[0] # масала
         result = self.method(parameter)
-        # more logic here (API calls)
+        # кхин а логика кхузахь (API кхайкхамаш)
 
     def do_stuff(Self, *args):
         """
-        Default mode logic for command 2
+        2-гӀа командан логика стандартан режиман .
         """
-        parameter = args[0] # for example
+        parameter = args[0] # масала
         result = self.method(parameter)
         result = self.method2(result)
-        # more logic here (API calls)
+        # кхин а логика кхузахь (API кхайкхамаш)
 
     def method(self, parameter):
         """
-        Does something and can or cannot return.
+        Цхьа хӀума деш, юхаверза йиш йолуш а, йиш йоцуш а.
         """
-        # do stuff
+        # хӀума дан
         return result
 
     def method2(self, parameter):
         """
-        Does something and can or cannot return.
+        Цхьа хӀума деш, юхаверза йиш йолуш а, йиш йоцуш а.
         """
-        # do even more stuff
+        # кхин а алсам хӀуманаш де
         return result
 
 

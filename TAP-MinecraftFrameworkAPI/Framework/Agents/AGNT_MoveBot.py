@@ -6,8 +6,8 @@ class MoveBot(Agent):
 
     def cmd_walk(self, *args):
         help_message = [
-            "-> WALK {nSteps}: The bot will move the player 'nSteps' forward.",
-            "Example: WALK 5"
+            "-> ЛЕЛАР {nSteps}: Бот ловзархо 'nSteps' хьалха дӀахьур ву.",
+            "Example: ЛЕЛАР 5"
         ]
 
         actions = {
@@ -29,11 +29,11 @@ class MoveBot(Agent):
         self.execute_cmd(help_message, actions, *args)  
 
     def walk_steps(self, *args):
-        # Try to convert args[0] to an integer
+        # args[0] дерриге терахье дерзо хьажа
         if args:
             steps = self.convert_to_int(args[0])
             if steps is None:
-                self.mc.postToChat(f"Error: '{args[0]}' is not a valid number for steps.")
+                self.mc.postToChat(f"ГӀалаташ: '{args[0]}' нийса терахь дац гӀулчашна.")
                 return
         else:
             steps = DEFAULT_WALK
@@ -44,24 +44,24 @@ class MoveBot(Agent):
         self.move(x, y, z)
 
     def jump_height(self, *args):
-        # Try to convert args[0] to an integer
+        # args[0] дерриге терахье дерзо хьажа
         if args:
             height = self.convert_to_int(args[0])
             if height is None:
-                self.mc.postToChat(f"Error: '{args[0]}' is not a valid number for height.")
+                self.mc.postToChat(f"ГӀалаташ: '{args[0]}' локхаллин нийса терахь дац.")
                 return
         else:
             height = DEFAULT_WALK
 
         if height is None:
-            self.mc.postToChat(f"Error: '{args[0]}' is not a valid number for jump height.")
+            self.mc.postToChat(f"ГӀалаташ: '{args[0]}' нийса терахь дац кхиссаваларан локхаллина.")
             return
 
         x, y, z = self.where()
         y += height
         self.move(x, y, z)
 
-    # Function to convert a value to an integer
+    # Функци мах дерриге терахье дерзоран .
     def convert_to_int(self, value):
         """
         Converts a value to an integer if possible.

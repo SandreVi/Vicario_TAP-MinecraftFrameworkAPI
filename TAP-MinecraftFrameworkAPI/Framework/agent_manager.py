@@ -7,103 +7,103 @@ from Framework.Utils.chat_listener import ChatListener
 class AgentManager(ChatListener):
     def __init__(self, mc):
         """
-        Initializes the AgentManager, which manages the agents and listens for chat commands.
-        :param mc: Minecraft connection instance.
+        Агент менеджер хила, со агентш тӀекъах чо чат къомандеш хила.
+        :param mc: Minecraft соединение.
         """
         super().__init__(mc)
-        self.agents = {}  # Dictionary to hold agent names and their corresponding instances
-        self.commands = {}  # Dictionary to hold commands and their corresponding agent methods
+        self.agents = {}  # Агентш хила, агент хьама а ща класса
+        self.commands = {}  # Къомандеш хила, къоманда хьама метод
 
     def import_agents(self):
         """
-        Dynamically imports agents from the 'Agents' folder and registers their commands.
+        Динамическ импорт агентш 'Agents' цу и регистрация хила къомандеш.
         """
-        # Path where the agent files are located
+        # Путь, со агентш файлаш
         agents_path = os.path.join(os.path.dirname(__file__), 'Agents')
         
-        # List all the agent files in the folder and filter the ones that start with "AGNT_" and end with ".py"
+        # Листена агентш файлшу хила фильтра, со къомандеш начинается "AGNT_" и заканчивается ".py"
         agent_files = filter(lambda filename: filename.startswith("AGNT_") and filename.endswith(".py"), os.listdir(agents_path))
 
-        # Process each valid agent file
+        # Лахан каждый правильный агент файл
         for filename in agent_files:
-            agent_name = filename[:-3]  # We remove the '.py' extension to get the class name
+            agent_name = filename[:-3]  # Мы удаляем '.py' расширение для класса хьам
             agent_module = importlib.import_module(f"Framework.Agents.{agent_name}")
             
-            # Try to dynamically get the class from the module (CLASS NAME MUST MATCH THE FILE SUFFIX)
-            class_name = agent_name.split("_")[1]  # Take the class name after "AGNT_"
+            # Динамически берет класс из модуля (КЛАСС ХЬАМА СОШЕН СУФФИКСОМ ФАЙЛА)
+            class_name = agent_name.split("_")[1]  # Класс хьама после "AGNT_"
             try:
-                agent_class = getattr(agent_module, class_name)  # Get the class from the module
+                agent_class = getattr(agent_module, class_name)  # Получить класс из модуля
             except AttributeError:
-                print(f"Error: Module {agent_name} does not have a class named {class_name}.")
+                print(f"Ошибка: Модуль {agent_name} не имеет класса с именем {class_name}.")
                 continue
             
-            # Create an instance of the agent class
-            agent_instance = agent_class(self.mc)  # Instantiate the agent
+            # Агент инстанцирования
+            agent_instance = agent_class(self.mc)  # Инстанцировать агент
             
-            # Call the agent's import method to register its commands
+            # Вызвать метод импорт агента для регистрации къомандеш
             agent_commands = agent_instance.import_()
             
-            # Register the commands and methods
+            # Регистрация къомандеш и методов
             for command, method in agent_commands:
-                self.commands[command] = method  # Map command to the corresponding method
+                self.commands[command] = method  # Сопоставить къомандеш к методу
             
-            # Store the agent instance
+            # Сохранить агент инстанцирование
             self.agents[agent_name] = agent_instance
 
     def process_message(self, command):
         """
-        Processes the received chat message and executes the corresponding method if it's valid.
+        Процесс чо къомандеш хила, если он допустим.
         """
         if command is None:
-            self.mc.postToChat("Too much idle time... Framework shutting down!")
+            self.mc.postToChat("Слишком много времени бездействия... Фреймворк закрывается!")
             return
 
-        # Split the message into all individual parts (words) and remove leading/trailing spaces
-        parts = command.split()  # This will split the command and parameters correctly
-        command = parts[0].upper()  # Convert the command to uppercase for consistency
-        params = parts[1:]  # Get all parameters except the command
+        # Разделить къомандеш в части и убрать пробелы
+        parts = command.split()  # Это разделяет къомандеш и параметры правильно
+        command = parts[0].upper()  # Преобразовать къомандеш к верхнему регистру для согласованности
+        params = parts[1:]  # Получить параметры, кроме къомандеш
 
-        # Dictionary-based "switch" for command handling
+        # Словарь для обработки къомандеш
         command_actions = {
-            "CMDLIST": lambda: self.mc.postToChat("Available commands: " + ", ".join(self.commands.keys())),
-            "COMMANDLIST": lambda: self.mc.postToChat("Available commands: " + ", ".join(self.commands.keys())),
+            "CMDLIST": lambda: self.mc.postToChat("Доступные къомандеш: " + ", ".join(self.commands.keys())),
+            "COMMANDLIST": lambda: self.mc.postToChat("Доступные къомандеш: " + ", ".join(self.commands.keys())),
             "HELP": lambda: [
-                self.mc.postToChat("->CMDLIST/COMMANDLIST: Show available commands for agents"),
-                self.mc.postToChat("->RELOAD: Refresh loaded agents from Agents folder"),
-                self.mc.postToChat("->END/STOP: Close framework"),
-                self.mc.postToChat("->HELP: This command! (pretty self-explanatory)")
+                self.mc.postToChat("->CMDLIST/COMMANDLIST: Показать доступные къомандеш для агентш"),
+                self.mc.postToChat("->RELOAD: Обновить загруженные агентш из папки Agents"),
+                self.mc.postToChat("->END/STOP: Закрыть фреймворк"),
+                self.mc.postToChat("->HELP: Этот къомандеш! (само объясняющийся)")
             ],
             "RELOAD": lambda: [
                 self.agents.clear(),
                 self.commands.clear(),
                 self.import_agents(),
-                self.mc.postToChat("Agents reloaded!")
+                self.mc.postToChat("Агенты обновлены!")
             ],
-            "END": lambda: self.mc.postToChat("To properly abort, JUST type \"END\" or \"STOP\" with no extra parameters"),
-            "STOP": lambda: self.mc.postToChat("To properly abort, JUST type \"END\" or \"STOP\" with no extra parameters")
+            "END": lambda: self.mc.postToChat("Для корректного завершения, просто напиши \"END\" или \"STOP\" без дополнительных параметров"),
+            "STOP": lambda: self.mc.postToChat("Для корректного завершения, просто напиши \"END\" или \"STOP\" без дополнительных параметров")
         }
 
-        # Default case for agent-based commands
+        # Случай по умолчанию для къомандеш агента
         if command in command_actions:
-            command_actions[command]()  # Execute the corresponding action
+            command_actions[command]()  # Выполнить соответствующее действие
         elif command in self.commands:
             method = self.commands[command]
             method(*params)
         else:
-            self.mc.postToChat(f"Command '{command}' not recognized.")
+            self.mc.postToChat(f"Къомандеш '{command}' не распознан.")
 
     def start(self, timeout_enabled=True, timeout=10):
         """
-        Initializes the agent manager, imports the agents, and starts listening for chat commands.
+        Инициализирует менеджер агентш, импортирует агентш и начинает слушать къомандеш из чата.
         """
-        # Import agents and their commands
+        # Импорт агентш и их къомандеш
         self.import_agents()
 
-        self.mc.postToChat("Agents imported! Listening...")
-        self.mc.postToChat("Type \"HELP\" if needed!")
+        self.mc.postToChat("Агенты импортированы! Слушаем...")
+        self.mc.postToChat("Напиши \"HELP\", если нужно!")
 
-        # Start listening for chat commands
-        self.listen_for_chat_commands(self, timeout_enabled, timeout)  # Call the listen_for_chat_commands method of ChatListener
+        # Начать слушать къомандеш из чата
+        self.listen_for_chat_commands(self, timeout_enabled, timeout)  # Вызвать метод listen_for_chat_commands из ChatListener
 
-        # Goodbye message
-        self.mc.postToChat("Framework closed!")
+        # Прощальное сообщение
+        self.mc.postToChat("Фреймворк закрыт!")

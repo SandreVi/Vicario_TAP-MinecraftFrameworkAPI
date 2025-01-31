@@ -2,7 +2,7 @@ import random
 from MyAdventures.mcpi.block import TNT, GLASS
 from Framework.Utils.agent import Agent
 
-REDSTONE_TORCH_ID = 76  # block_id for redstone torch
+REDSTONE_TORCH_ID = 76  # block_id цӀен тӀулган лампа
 MIN_RANDOM = 1
 MAX_RANDOM = 3
 BLOCK_DISTANCE = 5
@@ -11,41 +11,41 @@ class TNTBot(Agent):
 
     def cmd_deploy(self, *args):
         """
-        Deploy TNT in auto or manual mode based on the provided parameters.
+        Тротил автоматически я ручной режимехь дӀахӀоттае, еллачу параметрашна тӀе а тевжаш.
         """
         help_message = [
-            "-> DEPLOY {AUTO/MANUAL} Places a TNT block 5 blocks away and 2 additional in random positions.",
-            "* AUTO: Blocks will ignite immediately after placement.",
-            "* MANUAL: Blocks will ignite when interacted with by the player."
+            "-> DEPLOY {АВТО/РУЧНОСТЬ} Тротил блок 5 блок генахь а, кхин а 2 ларамаза меттигашкахь дӀахӀоттадо.",
+            "* АВТО: Блокаш дӀахӀиттийначул тӀаьхьа сихха цӀе латтор ю.",
+            "* РУЧНОСТЬ: Блокаш ловзархочо юкъаметтиг лелийча цӀе латтор ю."
         ]
             
         actions = {
-            "AUTO": self.auto_mode,
-            "MANUAL": self.manual_mode
+            "АВТО": self.auto_mode,
+            "РУЧНОСТЬ": self.manual_mode
         }
         
         self.execute_cmd(help_message, actions, *args)
 
     def auto_mode(self, *args):
         """
-        Arrange TNT automatically with redstone torch.
+        Тротил автоматически дӀанисъе цӀен тӀулган лампаца.
         """
         self.deploy_tnts(add_redstone=True)
 
     def manual_mode(self, *args):
         """
-        Arrange TNT manually for player to click.
+        ДӀанисде ТНТ ручной плеер хьажа.
         """
         self.deploy_tnts(add_redstone=False)
 
     def deploy_tnts(self, add_redstone):
         """
-        Generates positions and places TNT blocks with `mcAPI`, in either AUTO or MANUAL mode.
+        Генераци йо позицешца а, дӀахӀиттадо ТНТ блокаш `mcAPI` йолуш, я АВТО я РУЧНИ режимехь.
         """
-        # Get the player's orientation (direction they are facing)
+        # Ловзархочун ориентаци схьаэца (уьш дуьхьал болчу агӀор)
         direction = self.get_player_orientation()
 
-        # Generate the base positions where TNT will be placed
+        # Тротил дӀахӀоттор йолчу базан позицеш генерировать е .
         positions = self.arrange_positions()
 
         calculated_positions = [

@@ -11,15 +11,15 @@ class mcBotAPI:
     
     def __init__(self, mc):
         """
-        Inicializa la API con la conexión a Minecraft.
+        API-наш мотт охьал дӀарг дийца Minecraft-га.
         """
         self.mc = mc
 
     def talk(self, message):
         """
-        Sends a message to the Minecraft chat.
+        Оьрхан чунчо куьна Майнкрафт чат.
         
-        :param message: The message to be sent to the Minecraft chat.
+        :param message: Чуьна Майнкрафт чат-га оьрхан чунчо.
         """
         self.mc.postToChat(message)
 
@@ -33,16 +33,16 @@ class mcBotAPI:
         
     def get_player_orientation(self):
         """
-        Returns the direction the player is facing in English (NORTH, WEST, SOUTH, EAST).
+        Цхьам аьржа хечу, юхаларгий оркхой аук.
         """
-        # Get the player's rotation (0° - 360°)
+        # Игрок къаттнаш (0° - 360°)
         player_rotation = self.mc.player.getRotation()
 
-        # Normalize the rotation to be in the range of 0 to 360
+        # Ротациийн адо 0-дан 360-га хьо хи кхеташ
         rotation = player_rotation % 360
         
-        # Determine the player's facing direction based on the rotation
-        # rotation values -> [0, 360]
+        # Дехар ротацииг каарш, оркхой хорщин
+        # Ротациийн маьршу -> [0, 360]
         if rotation >= 315 or rotation < 45:
             return "SOUTH"
         elif 45 <= rotation < 135:
@@ -54,8 +54,8 @@ class mcBotAPI:
 
     def arrange_positions(self):
         """
-        Generates three positions (base + dos random near the player).
-        Retunrs a list with coordinates [(x1, z1, y1), (x2, z2, y2), (x3, z3, y3)]
+        Позиций генерациа я шекъяр, хила хьалалха 3 позиция.
+        Дахареш чучарха [(x1, z1, y1), (x2, z2, y2), (x3, z3, y3)]
         """
         x, y, z = self.where()
 
@@ -69,7 +69,7 @@ class mcBotAPI:
 
     def calculate_position(self, x, z, y, rotation, add_redstone, block_distance=5):
         """
-        Calculates the final position of the block and the redstone torch based on the orientation.
+        Оьрхан хила позиция, мотт ахала Анторшка изи позиция.
         """
         if rotation == "EAST":
             x += block_distance
@@ -90,16 +90,16 @@ class mcBotAPI:
 
     def place_block(self, x, z, y, xTorch, zTorch, block_id, add_redstone, support_block_id=None, activate_on_place=False):
         """
-        Coloca un bloque en una posición dada, con opción de soporte y redstone.
+        Блок хила позиция, шекъярш редстоуну хи ахала.
         """
-        # Colocar bloque de soporte si es necesario
+        # Дехар блок поддержки хила
         if support_block_id:
             self.mc.setBlock(x, y - 1, z, support_block_id)
 
-        # Colocar el bloque principal
+        # Основной блок хила
         self.mc.setBlock(x, y, z, block_id, 1 if activate_on_place else 0)
 
-        # Si se requiere redstone, colocamos la antorcha con su soporte
+        # Анторшка изи редстоун, блок хила
         if add_redstone and xTorch is not None and zTorch is not None:
             if support_block_id:
                 self.mc.setBlock(xTorch, y - 1, zTorch, support_block_id)

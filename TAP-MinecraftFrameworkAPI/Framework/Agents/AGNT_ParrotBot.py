@@ -5,138 +5,138 @@ class ParrotBot(Agent):
 
     def cmd_insult(self, *args):
         """
-        Method that gets executed when the "INSULT" command is received.
+        "INSULT" команда схьаэцча кхочушъеш йолу метод.
         """
         help_message = [
-            "-> INSULT: The bot insults someone with a witty remark.",
-            "-> INSULT CHECK {insult}: Checks if the insult is listed."
+            "-> INSULT: Бот цхьанна вас йо забаречу къамелца.",
+            "-> INSULT ТОЛЛАМ {insult}: Инсульт листа йина юй толлу."
         ]
         
         actions = {
-            "DEFAULT": self.just_insult,  # Call the default insult logic
-            "CHECK": self.check_insult  # Call the check insult logic
+            "DEFAULT": self.just_insult,  # Кхайкха стандартан инсульт логика .
+            "CHECK": self.check_insult  # Кхайкхам чекхбаккха оскорбление логика .
         }
 
-        self.execute_cmd(help_message, actions, *args)  # Pass *args
+        self.execute_cmd(help_message, actions, *args)  # Чекхдала *args
 
     def cmd_praise(self, *args):
         """
-        Method that gets executed when the "PRAISE" command is received.
+        "PRAISE" команда схьаэцча кхочушъеш йолу метод.
         """
         help_message = [
-            "-> PRAISE: The bot praises someone with a nice compliment.",
-            "-> PRAISE CHECK {praise}: Checks if the praise is listed."
+            "-> PRAISE: Бот цхьаъ хеставо хаза комплиментца.",
+            "-> PRAISE ТОЛЛАМ {praise}: Хастам листа бу я бац толлу."
         ]
         
         actions = {
-            "DEFAULT": self.just_praise,  # Call the default praise logic
-            "CHECK": self.check_praise  # Call the check praise logic
+            "DEFAULT": self.just_praise,  # Кхайкха стандартан хастаман логика .
+            "CHECK": self.check_praise  # Кхайкхам чекхбаккха хастаме логика .
         }
 
         self.execute_cmd(help_message, actions, *args)  # Pass *args
 
     def cmd_mimic(self, *args):
         """
-        Method that gets executed when the "MIMIC" command is received.
+        "MIMIC" команда схьаэцча кхочушъеш йолу метод
         """
         help_message = [
-            "-> MIMIC {words}: The bot repeats the words you provide.",
-            "Example: MIMIC Hello there!"
+            "-> MIMIC {words}: Бот ахь луш долу дешнаш карладохуш ду.",
+            "Масала: MIMIC Салам маршал ду шуьга"
         ]
         
         actions = { 
-            "DEFAULT": self.just_mimic  # Call the default mimic logic
+            "DEFAULT": self.just_mimic  # Кхайкха стандартан мимика логика .
         }
 
-        self.execute_cmd(help_message, actions, *args)  # Pass *args
+        self.execute_cmd(help_message, actions, *args)  # Чекхдала *args
 
     def just_insult(self, *args):
         """
-        Sends a random insult from a predefined list.
+        Хьалха билгалдаьккхинчу тептар тӀера ларамаза вас йоуьйту.
         """
-        insults = self.get_insults()  # Get insults from the method
-        insult = random.choice(insults)  # Choose one randomly from the list
-        self.talk(insult)  # Use the talk() method from the API
+        insults = self.get_insults()  # Методах оскорблени эца .
+        insult = random.choice(insults)  # Цхьаъ ларамаза харжа тептар тӀера .
+        self.talk(insult)  # API чуьра talk() метод лелае .
 
     def just_praise(self, *args):
         """
-        Sends a random compliment from a predefined list.
+        Хьалха билгалдаьккхинчу тептар тӀера ларамаза комплимент йоуьйту.
         """
-        compliments = self.get_compliments()  # Get compliments from the method
-        compliment = random.choice(compliments)  # Choose one randomly from the list
-        self.talk(compliment)  # Use the talk() method from the API
+        compliments = self.get_compliments()  # Методан комплименташ эца .
+        compliment = random.choice(compliments)  # Цхьаъ ларамаза харжа тептар тӀера .
+        self.talk(compliment)  # API чуьра talk() метод лелае .
 
     def just_mimic(self, *args):
         """
-        Repeats the words provided by the user in the MIMIC command.
+        MIMIC командехь лелочо делла дешнаш карладоху.
         """
         if args:
-            self.talk(" ".join(args))  # Repeat the words that the player typed
+            self.talk(" ".join(args))  # Ловзаргахь дӀаяздина дешнаш карладаха .
         else:
-            self.talk("I have nothing to mimic!")  # If no words were provided, respond with a default message
+            self.talk("Суна имитаци ян хӀума дац!")  # Нагахь санна цхьа а дешнаш ца делча, хьалха санна хаамца жоп ло
 
     def check_insult(self, *args):
         """
-        Checks if the insult provided by the user is in the predefined list.
+        Декъашхочо елла вас хьалххе билгалдаьккхинчу тептарехь юй толлу.
         """
         if args:
-            insult = " ".join(args).upper()  # Convert the insult to uppercase
-            insults = self.get_insults()  # Get insults
-            self.check_word_in_list(insult, insults)  # Check if the word is in the list
+            insult = " ".join(args).upper()  # Вас деш долу дешнаш доккхачу элпаца дерзаде .
+            insults = self.get_insults()  # Вас еш.
+            self.check_word_in_list(insult, insults)  # Дош тептар тӀехь дуй хьовса .
         else:
             self.talk("Please provide an insult to check.")
 
     def check_praise(self, *args):
         """
-        Checks if the compliment provided by the user is in the predefined list.
+        Декъашхочо елла комплимент хьалххе билгалдаьккхинчу тептарехь юй толлу.
         """
         if args:
-            compliment = " ".join(args).upper()  # Convert the compliment to uppercase
-            compliments = self.get_compliments()  # Get compliments
-            self.check_word_in_list(compliment, compliments)  # Check if the word is in the list
+            compliment = " ".join(args).upper()  # Комплимент доккхачу элпаца хийца .
+            compliments = self.get_compliments()  # Комплименташ эца .
+            self.check_word_in_list(compliment, compliments)  # Дош тептар тӀехь дуй хьовса .
         else:
-            self.talk("Please provide a compliment to check.")
+            self.talk("Комплимент язъе, хьажа.")
 
     def check_word_in_list(self, word, word_list):
         """
-        Common method to check if a word exists in the given list.
+        Деллачу тептарехь дош дуйла толлуш юкъара кеп.
         """
-        # Convert the list words to uppercase for case-insensitive comparison
+        # Список дешнаш доккхачу элпе дерзаде, доккхачу элпаца дустар дан
         word_list_upper = list(map(lambda x: x.upper(), word_list))
         
-        # Check if the word exists in the list
+        # Списокехь дош дуй хьовса .
         if word in word_list_upper:
-            self.talk(f"The word '{word}' is in the list! :)")  # If it's in the list
+            self.talk(f"'{word}' боху дош листа чохь ду! :)")  # Нагахь санна иза списокехь делахь
         else:
-            self.talk(f"The word '{word}' is NOT in the list... :(")  # If it's not in the list
+            self.talk(f"'{word}' боху дош цу тептарехь ДАЦ... :(")  # Нагахь санна иза списокехь дацахь
 
     def get_insults(self):
         """
-        Returns the list of predefined insults with proper capitalization.
+        Хьалха билгалдаьхначу васийн тептар юхадерзадо, нийса доккха элп а яздина.
         """
         return [
-            "Fool",
-            "Idiot",
-            "Imbecile",
-            "Moron",
-            "Donkey",
-            "Jerk",
-            "Stupid"
+            "Ӏовдал",
+            "Идиот",
+            "Имбецил",
+            "Морон",
+            "Вир",
+            "Ӏовдал",
+            "Ӏовдал"
         ]
 
     def get_compliments(self):
         """
-        Returns the list of predefined compliments with proper capitalization.
+        Хьалха билгалдаьхначу комплиментийн тептар юхадерзадо, нийса доккха элп а яздина.
         """
         return [
-            "Awesome",
-            "Incredible",
-            "Brilliant",
-            "Outstanding",
-            "Fantastic",
-            "Smart",
-            "Talented",
-            "Genius",
-            "Amazing",
-            "Sharp"
+            "Инзаре",
+            "Тамаше",
+            "Къега",
+            "ГӀараваьлла",
+            "Фантастическан",
+            "Хьекъале",
+            "ПохӀма долу",
+            "Гени",
+            "Тамаше",
+            "Ира"
         ]

@@ -1,17 +1,17 @@
 from MyAdventures.mcpi.minecraft import Minecraft
 from Framework.agent_manager import AgentManager
 
-print('Framework launched')
+print('Фреймворк запущен')
 
-# Connect to the Minecraft server
+# Соединение с сервером Minecraft
 mc = Minecraft.create()
 
-# Create an instance of the AgentManager
+# Инстанцирование менеджера агентов
 agent_manager = AgentManager(mc)
 
-# Import all agents and show their available commands
+# Импорт всех агентов и отображение доступных къомандеш
 agent_manager.start(False)
 
-# It can also be launched with automatic timeout -> agent_manager.start(True, timeoutInSeconds)
+# Также можно запустить с автоматическим тайм-аутом -> agent_manager.start(True, timeoutInSeconds)
 
-print('Framework stopped')
+print('Фреймворк завершен')

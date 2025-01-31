@@ -4,82 +4,82 @@ class Agent(mcBotAPI):
 
     def __init__(self, mc):
         """
-        Initializes the agent and stores the mc (Minecraft connection).
-        :param mc: The Minecraft connection instance.
+        Агент-наш мотт охьал, mc (Minecraft оьрхан) зе нукъа.
+        :param mc: Minecraft оьрхан мотт.
         """
         mcBotAPI.__init__(self, mc)
 
     def import_(self):
         """
-        Returns the commands this agent handles, along with the corresponding methods.
-        Only methods prefixed with 'cmd_' are considered valid commands.
+        Агент-а къомандарш цунах, хьа азго къомандаш хи функциеш.
+        Чу хила функциаш "cmd_" цу назвуш.
         """
-        prefix = "cmd_"  # Define the prefix that commands will start with
+        prefix = "cmd_"  # Къомандеш-ха "cmd_" цу хила хи дац хила
 
-        # Create a list of tuples where:
-        # - The first element is the command name in uppercase, without the "cmd_" prefix
-        # - The second element is the reference to the method that handles that command
+        # Цуннах хьо лапшашу хила тури, ко:
+        # - Шийнат къомандаш аук хьалхьа, "cmd_" хи безаш хьалше
+        # - Хьал къо референц къомандаш хи функциаш
         return [
-            # Iterate over all attributes and methods of the current object (self)
-            (cmd[len(prefix):].upper(), getattr(self, cmd))  # This line creates a tuple with the command name (without "cmd_" and in uppercae) and its associated method
-            for cmd in dir(self)  # Iterate over all attributes and methods of the object
-            if callable(getattr(self, cmd, None))  # Check if the attribute is callable -> it's a method
-            and cmd.startswith(prefix)  # Check if the attribute name starts with the "cmd_" prefix
+            # Итераци  къомандаш зе всички аттрибути хи функцииш агент-а
+            (cmd[len(prefix):].upper(), getattr(self, cmd))  # Лабаш аук хьал хи къомандаш-н, "cmd_" хи безаш, къомандаш функциеш
+            for cmd in dir(self)  # Итераци зе аттрибути хи функцииш агент-а
+            if callable(getattr(self, cmd, None))  # Техамкха къомандеш аттрибут хи фукнцияш
+            and cmd.startswith(prefix)  # Техамкха къомандеш аттрибут "cmd_" хи бареха
         ] 
 
     def execute_cmd(self, help_message, actions, *args):
         """
-        Handles command execution by checking for 'HELP' and executing the correct action.
+        Къомандаш хи хила охьа хьалкарш 'HELP', хи барт дахала къомандарш.
         
-        :param help_message: The help text to display if 'HELP' is requested
-        :param actions: Dictionary mapping commands to functions
-        :param args: Command arguments (tuple)
+        :param help_message: Сообщение-ш уьрхан гӀала, агар 'HELP' къомандаш
+        :param actions: Къомандаш, хи къомандеш фукнциаш
+        :param args: Къомандеш аргументаш (кортеж)
         """
-        # Check if args is not empty and if the first argument is "HELP"
+        # Проверка, аргументы оьтташ, агу аргумент "HELP"
         if args and isinstance(args[0], str) and args[0].upper() == "HELP" and len(args) == 1:
             self._show_help(help_message)
             return
 
-        # Execute the action
-        self._execute_action(actions, *args)  # Pass *args to _execute_action
+        # Хила къомандаш
+        self._execute_action(actions, *args)  # Паскхар *args къо _execute_action
 
     def _show_help(self, help_message):
         """
-        Displays the help message in the chat.
+        Сообщение-ш уьрхан гӀала в чат.
         """
         for line in help_message:
             self.talk(line)
 
     def _execute_action(self, actions, *args):
         """
-        Executes the action corresponding to the command argument.
+        Хила къомандаш функциеш, дац охьал параметр 'HELP'.
         """
-        if args:  # Check if args is not empty
-            # Get the first argument in uppercase (corresponds to the command)
+        if args:  # Проверка, аргументш пустош
+            # Къомандаш хила аргумент, ицу къомандаш
             command = args[0].upper()
 
-            # Look for the corresponding action
+            # Хила къомандаш ицу къомандеш фукнцияш
             action = actions.get(command)
 
             if action:
-                # Execute the action with the remaining arguments
+                # Хила къомандеш с аргументш
                 action(*args[1:])
             else:
-                # If the action doesn't exist, check for a default action
+                # Если къомандаш не хила, проверка дефолт функцияш
                 if not self._check_default(actions, *args):
-                    self.talk(f"Invalid parameter: {args[0]}. Use command + HELP for available options.")  # Changed to self.talk
-        else:  # If args is empty
-            # If args[0] doesn't exist, check if there's a default action
+                    self.talk(f"Нах лахар параметр: {args[0]}. Хила къомандаш + HELP гӀала дац ингкъа.")  # Изменено на self.talk
+        else:  # Егер аргументш пустош
+            # Егер args[0] хила, проверка дефолт функцияш
             if not self._check_default(actions, *args):
-                self.talk("This command expects parameters! Use command + HELP for available options.")  # Changed to self.talk
+                self.talk("Къомандаш требуш параметр! Хила къомандаш + HELP гӀала дац ингкъа.")  # Изменено на self.talk
 
     def _check_default(self, actions, *args):
         """
-        Checks if there is a default action in the actions dictionary and executes it.
-        Returns True if the default action was executed, False otherwise.
+        Проверка, дефолт функцияш хила къомандаш фукнцияш.
+        Хила веренжи True, ежик False.
         """
         default_action = actions.get("DEFAULT")
         if default_action:
-            default_action(*args)  # Execute the default action, passing the arguments
-            return True  # Indicate that the default action was executed
-        return False  # Indicate that no default action was found
+            default_action(*args)  # Хила дефолт функциеш с аргументш
+            return True  # Хила дефолт функциеш
+        return False  # Проверка, дефолт функцияш хила
