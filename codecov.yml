@@ -1,3 +1,3 @@
 codecov:
   ignore:
-    - "Framework/Agents"
+    - "TAP-MinecraftFrameowrkAPI/Framework/Agents"
