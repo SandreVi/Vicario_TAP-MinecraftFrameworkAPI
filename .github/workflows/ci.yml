@@ -38,7 +38,3 @@ jobs:
       uses: codecov/codecov-action@v5
       with:
         token: ${{ secrets.CODECOV_TOKEN }}
-
-ignore:
-  - "TAP-MinecraftFrameworkAPI/Framework/Agents"
-

@@ -1,0 +1,2 @@
+ignore:
+  - "TAP-MinecraftFrameworkAPI/Framework/Agents/**/*"
