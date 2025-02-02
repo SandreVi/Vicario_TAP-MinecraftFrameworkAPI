@@ -5,8 +5,6 @@ from MyAdventures.mcpi.vec3 import Vec3
 
 class TestMcBotAPI(unittest.TestCase):
 
-    # I've only made tests that check the functionality of the API
-
     def setUp(self):
         self.mc_mock = MagicMock()
 
@@ -149,6 +147,3 @@ class TestMcBotAPI(unittest.TestCase):
         self.mc_mock.setBlock.assert_any_call(x, y, z, block_id, 1)  # Main block at (x, y, z) with activation (1)
         self.mc_mock.setBlock.assert_any_call(xTorch, y - 1, zTorch, support_block_id)  # Support block for redstone torch
         self.mc_mock.setBlock.assert_any_call(xTorch, y, zTorch, 76)  # Redstone torch at (xTorch, y, zTorch)
-
-if __name__ == "__main__":
-    unittest.main()
