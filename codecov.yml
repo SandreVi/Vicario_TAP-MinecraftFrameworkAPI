@@ -1,2 +1,3 @@
-ignore:
-  - "TAP-MinecraftFrameworkAPI/Framework/Agents/**/*"
+codecov:
+  ignore:
+    - "Framework/Agents"
