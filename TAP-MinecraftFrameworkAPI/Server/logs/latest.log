@@ -1,0 +1,125 @@
+[12:29:52] [Server thread/INFO]: Loading properties
+[12:29:52] [Server thread/INFO]: Default game type: CREATIVE
+[12:29:52] [Server thread/INFO]: Generating keypair
+[12:29:53] [Server thread/INFO]: Starting Minecraft server on *:25565
+[12:29:53] [Server thread/INFO]: Using default channel type
+[12:29:53] [Server thread/INFO]: This server is running CraftBukkit version git-Bukkit-ed8c725 (MC: 1.12) (Implementing API version 1.12-R0.1-SNAPSHOT)
+[12:29:53] [Server thread/INFO]: [RaspberryJuice] Loading RaspberryJuice v1.10
+[12:29:53] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[12:29:53] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[12:29:53] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[12:29:53] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[12:29:53] [Server thread/INFO]: Preparing level "world"
+[12:29:54] [Server thread/INFO]: Preparing start region for level 0 (Seed: 4604641233889422912)
+[12:29:55] [Server thread/INFO]: Preparing spawn area: 72%
+[12:29:55] [Server thread/INFO]: Preparing start region for level 1 (Seed: -75619791794583886)
+[12:29:56] [Server thread/INFO]: Preparing start region for level 2 (Seed: -75619791794583886)
+[12:29:56] [Server thread/INFO]: [RaspberryJuice] Enabling RaspberryJuice v1.10
+[12:29:56] [Server thread/INFO]: [RaspberryJuice] Using port 4711
+[12:29:56] [Server thread/INFO]: [RaspberryJuice] Using ABSOLUTE locations
+[12:29:56] [Server thread/INFO]: [RaspberryJuice] Using BOTH clicks for hits
+[12:29:56] [Server thread/INFO]: [RaspberryJuice] ThreadListener Started
+[12:29:56] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[12:29:56] [Server thread/INFO]: Done (3,068s)! For help, type "help" or "?"
+[12:30:59] [Server thread/INFO]: SandreOfisial[/127.0.0.1:58770] logged in with entity id 11 at ([world]-116.84172143740727, 67.0, -486.266594984916)
+[12:31:04] [Netty Server IO #1/INFO]: <SandreOfisial> cmdlist
+
+[12:31:20] [Thread-5/INFO]: [RaspberryJuice] Starting input thread
+[12:31:20] [Thread-6/INFO]: [RaspberryJuice] Starting output thread!
+[12:31:20] [Thread-3/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:58804.
+[12:31:20] [Server thread/INFO]: Agents imported! Listening...
+
+[12:31:20] [Server thread/INFO]: Type "HELP" if needed!
+
+[12:31:20] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:58804.
+[12:32:04] [Thread-3/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:58835.
+[12:32:04] [Thread-8/INFO]: [RaspberryJuice] Starting output thread!
+[12:32:04] [Thread-7/INFO]: [RaspberryJuice] Starting input thread
+[12:32:04] [Server thread/INFO]: Agents imported! Listening...
+
+[12:32:04] [Server thread/INFO]: Type "HELP" if needed!
+
+[12:32:08] [Netty Server IO #1/INFO]: <SandreOfisial> cmdlist
+
+[12:32:08] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:58835.
+[12:32:42] [Thread-3/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:58866.
+[12:32:42] [Thread-9/INFO]: [RaspberryJuice] Starting input thread
+[12:32:42] [Thread-10/INFO]: [RaspberryJuice] Starting output thread!
+[12:32:42] [Server thread/INFO]: Agents imported! Listening...
+
+[12:32:42] [Server thread/INFO]: Type "HELP" if needed!
+
+[12:32:46] [Netty Server IO #1/INFO]: <SandreOfisial> cmdlist
+
+[12:32:46] [Server thread/INFO]: Available commands: JUMP, WALK, INSULT, MIMIC, PRAISE, DEPLOY
+
+[12:32:50] [Netty Server IO #1/INFO]: <SandreOfisial> deploy
+
+[12:32:51] [Server thread/INFO]: This command expects parameters! Use command + HELP for available options.
+
+[12:32:55] [Netty Server IO #1/INFO]: <SandreOfisial> deploy help
+
+[12:32:55] [Server thread/INFO]: -> DEPLOY {AUTO/MANUAL} Places a TNT block 5 blocks away and 2 additional in random positions.
+
+[12:32:55] [Server thread/INFO]: * AUTO: Blocks will ignite immediately after placement.
+
+[12:32:55] [Server thread/INFO]: * MANUAL: Blocks will ignite when interacted with by the player.
+
+[12:32:57] [Netty Server IO #1/INFO]: <SandreOfisial> deploy auto
+
+[12:33:05] [Netty Server IO #1/INFO]: <SandreOfisial> deploy manual
+
+[12:33:16] [Netty Server IO #1/INFO]: <SandreOfisial> deploy auto
+
+[12:33:24] [Netty Server IO #1/INFO]: <SandreOfisial> deploy auto
+
+[12:33:30] [Netty Server IO #1/INFO]: <SandreOfisial> cmdlist
+
+[12:33:30] [Server thread/INFO]: Available commands: JUMP, WALK, INSULT, MIMIC, PRAISE, DEPLOY
+
+[12:33:32] [Netty Server IO #1/INFO]: <SandreOfisial> jump
+
+[12:33:35] [Netty Server IO #1/INFO]: <SandreOfisial> jump help
+
+[12:33:35] [Server thread/INFO]: -> JUMP {height}: The bot will make the player jump 'height' blocks.
+
+[12:33:35] [Server thread/INFO]: Example: JUMP 5
+
+[12:33:37] [Netty Server IO #1/INFO]: <SandreOfisial> jump 5
+
+[12:33:41] [Netty Server IO #1/INFO]: <SandreOfisial> mimic
+
+[12:33:41] [Server thread/INFO]: I have nothing to mimic!
+
+[12:33:45] [Netty Server IO #1/INFO]: <SandreOfisial> mimic holaaa
+
+[12:33:46] [Server thread/INFO]: holaaa
+
+[12:33:50] [Netty Server IO #1/INFO]: <SandreOfisial> insult
+
+[12:33:50] [Server thread/INFO]: Imbecile
+
+[12:33:55] [Netty Server IO #1/INFO]: <SandreOfisial> insult check imbecile
+
+[12:33:55] [Server thread/INFO]: The word 'IMBECILE' is in the list! :)
+
+[12:34:15] [Netty Server IO #1/INFO]: <SandreOfisial> praise check pretty
+
+[12:34:15] [Server thread/INFO]: The word 'PRETTY' is NOT in the list... :(
+
+[12:34:18] [Netty Server IO #1/INFO]: <SandreOfisial> pretty
+
+[12:34:18] [Server thread/INFO]: Command 'PRETTY' not recognized.
+
+[12:34:20] [Netty Server IO #1/INFO]: <SandreOfisial> praise
+
+[12:34:20] [Server thread/INFO]: Talented
+
+[12:34:25] [Netty Server IO #1/INFO]: <SandreOfisial> praise check talented
+
+[12:34:25] [Server thread/INFO]: The word 'TALENTED' is in the list! :)
+
+[12:34:39] [Server thread/INFO]: SandreOfisial lost connection: Disconnected
+[12:34:39] [Server thread/INFO]: SandreOfisial left the game
+[12:47:24] [Thread-9/INFO]: [RaspberryJuice] Connection reset
+[12:47:24] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:58866.

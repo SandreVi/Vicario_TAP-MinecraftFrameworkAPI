@@ -32,7 +32,7 @@ jobs:
 
     - name: Run tests and generate coverage report
       run: |
-        pytest --cov=TAP-MinecraftFrameworkAPI/Framework --cov-report=xml TAP-MinecraftFrameworkAPI/Framework/_tests --cov-exclude="*/Agents/*"
+        pytest --cov=TAP-MinecraftFrameworkAPI/Framework --cov-report=xml TAP-MinecraftFrameworkAPI/Framework/_tests
 
     - name: Upload coverage to Codecov
       uses: codecov/codecov-action@v5
